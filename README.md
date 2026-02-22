@@ -17,7 +17,6 @@
 
 ### Professor:
 Prof. Dr. Lele Ahmeti
-
 Prof. Dr. Mërgim Hoti
 
 **Date:** February 2026
