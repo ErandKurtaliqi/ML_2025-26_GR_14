@@ -10,116 +10,304 @@
 **Course:** Machine Learning  
 **Group:** 14  
 
-# Tema
+# Project Topic
 
-## Trajnimi dhe aplikimi i modelit YOLO për detektimin dhe vlerësimin automatik të testeve pranuese në FIEK
+## Training and Application of the YOLO Model for Automatic Detection and Evaluation of Entrance Exams at FIEK
 
-Ky projekt ka për qëllim zhvillimin e një sistemi inteligjent për **detektimin dhe vlerësimin automatik të testeve pranuese në Fakultetin e Inxhinierisë Elektrike dhe Kompjuterike (FIEK)** duke përdorur modelin **YOLO (You Only Look Once)** nga fusha e **Computer Vision dhe Machine Learning**.
+</div>
 
-Sistemi synon të analizojë imazhe të testeve të plotësuara nga kandidatët dhe të identifikojë në mënyrë automatike:
+---
 
-- Kodin e kandidatit
-- Pozicionin e përgjigjeve në test
-- Përgjigjet e shënuara nga kandidati
-- Përgjigjet e sakta dhe numrin total të pikëve
+# Project Overview
 
-Pas procesit të detektimit, sistemi analizon përgjigjet e identifikuara dhe llogarit **numrin e përgjigjeve të sakta**, duke mundësuar një proces të **automatizuar, të shpejtë dhe më të saktë të korrigjimit të testeve pranuese**.
+This project focuses on the design and implementation of an **automated system for detecting and evaluating entrance exam tests** using **Artificial Intelligence and Computer Vision techniques**.
 
-Ky projekt synon të reduktojë:
+The system is based on the **YOLO (You Only Look Once)** deep learning model, which is widely used for **real-time object detection**.
 
-- gabimet njerëzore gjatë korrigjimit
-- kohën e nevojshme për analizimin e testeve
-- ndërhyrjen manuale në procesin e vlerësimit
+The main objective of this project is to create a system capable of automatically analyzing **exam sheets** and extracting relevant information from them, including:
 
-dhe të ofrojë një **zgjidhje të automatizuar të bazuar në inteligjencë artificiale për korrigjimin e testeve pranuese**.
+- Candidate identification code
+- The position of each answer field
+- Selected answers marked by the candidate
+- Correct answers
+- Final score calculation
+
+By automating this process, the system can significantly **reduce the time required to evaluate entrance exams**, while also **increasing accuracy and consistency**.
+
+---
+
+# Motivation of the Project
+
+Entrance exams often involve a large number of candidates. Evaluating these tests manually requires significant time and effort from academic staff.
+
+Manual grading may also introduce potential issues such as:
+
+- Human errors during correction
+- Inconsistent evaluation
+- Fatigue during large-scale exam processing
+- Slow result generation
+
+The goal of this project is to develop an **AI-based automated grading system** that can assist institutions by providing:
+
+- Faster evaluation
+- Consistent grading
+- Reduced manual workload
+- Reliable automated results
 
 ---
 
 # Dataset Creation
 
-Për të trajnuar modelin YOLO është krijuar një **dataset i dedikuar**, i përbërë nga rreth **100 mostra (test sheets)** të ndryshme.
+A **custom dataset** was created specifically for training the YOLO model used in this project.
 
-Këto mostra janë shpërndarë tek **persona të ndryshëm në mënyrë të rastësishme**, me qëllim që të krijohen **të dhëna sa më reale dhe të larmishme**. Personat që kanë plotësuar testet kanë përdorur stile të ndryshme të plotësimit, duke reflektuar mënyrat reale se si kandidatët mund të plotësojnë një test.
+The dataset contains approximately **100 exam sheet samples**, representing different ways in which candidates may fill out their tests.
 
-Dataset-i përfshin raste të ndryshme reale si:
+To simulate realistic exam conditions, these test sheets were **distributed among randomly selected individuals**, who were asked to complete them as if they were taking an actual entrance exam.
 
-- përgjigje të plota dhe të sakta
-- përgjigje të gabuara
-- pyetje të lëna pa përgjigje
-- raste ku kandidati ka shënuar disa përgjigje për të njëjtën pyetje
-- devijime në mënyrën e plotësimit të rrethit të përgjigjes
-- mbushje jo të plotë të rrethit të përgjigjes
-- shenja të pjesshme ose të paqarta
-- shënime të bëra jashtë zonës së përgjigjes
-
-Në disa raste janë përfshirë edhe situata ku:
-
-- vijat e plotësimit janë devijuar
-- përgjigjet janë shënuar pjesërisht
-- kandidati ka ndryshuar përgjigjen
-- përgjigjet janë bërë me intensitet të ndryshëm të stilolapsit ose lapsit
-
-Këto variacione janë përfshirë që modeli të mësojë të trajtojë **situata reale dhe jo vetëm raste ideale**.
+This approach was chosen in order to ensure that the dataset contains **natural variations in human behavior and writing styles**, which is essential for training a robust machine learning model.
 
 ---
 
-# Data Collection and Validation
+# Data Diversity and Realistic Scenarios
 
-Të gjitha testet janë **skanuar ose fotografuar në format imazhi**, pasi modeli YOLO trajnohet mbi **të dhëna vizuale (images)**.
+The dataset was intentionally designed to include a wide range of realistic scenarios.
 
-Çdo imazh është kontrolluar manualisht përpara se të futet në dataset për të siguruar që:
+Some of the cases included in the dataset are:
 
-- imazhi është i qartë dhe i lexueshëm
-- nuk ka deformime të mëdha të dokumentit
-- pozicioni i testit është i identifikueshëm
-- të gjitha elementet e rëndësishme janë të dukshme
+- Fully completed exam sheets
+- Partially completed exam sheets
+- Questions intentionally **left unanswered**
+- Cases where **multiple answers were marked**
+- Answers filled **very lightly**
+- Answers filled **very strongly**
+- Incomplete markings
+- Slightly misaligned markings
+- Deviations from the expected filling pattern
+- Crossed-out answers
+- Cases where candidates **changed their answers**
 
-Pas këtij procesi është bërë një **kontroll i dytë manual i të dhënave**, ku janë verifikuar:
+Additionally, the dataset includes examples where:
 
-- integriteti i imazheve
-- korrektësia e anotimeve
-- mungesa e gabimeve në etiketim
+- The answer circle is only partially filled
+- The candidate marked outside the expected area
+- The candidate left blank responses
+- The candidate selected incorrect answers intentionally
 
-Kjo është bërë për të siguruar një **dataset sa më cilësor dhe të pastër**, i cili është shumë i rëndësishëm për performancën e modelit.
-
----
-
-# Data Annotation
-
-Pas mbledhjes së të dhënave është realizuar procesi i **annotimit (etiketimit)** të imazheve.
-
-Në këtë proces janë identifikuar dhe shënuar:
-
-- zona e kodit të kandidatit
-- zonat e përgjigjeve
-- kutitë ose rrethet e përgjigjeve
-- elementet e tjera relevante në test
-
-Këto etiketime janë përdorur për të trajnuar modelin YOLO që të mësojë të identifikojë dhe klasifikojë objektet në mënyrë automatike.
+These variations were intentionally included to make the dataset **more robust and closer to real-world exam situations**.
 
 ---
 
-# Model Training
+# Image Acquisition
 
-Modeli YOLO trajnohet mbi dataset-in e krijuar duke përdorur **imazhe të testit dhe anotimet përkatëse**.
+All test sheets were converted into **image format**, since YOLO models operate on visual data.
 
-Procesi i trajnimit përfshin:
+Images were collected using:
 
-- përgatitjen e dataset-it
-- ndarjen e dataset-it në **training set dhe validation set**
-- konfigurimin e modelit YOLO
-- trajnimin e modelit mbi imazhet e dataset-it
-- evaluimin e performancës së modelit
+- Document scanners
+- Smartphone cameras
+- Standard digital cameras
 
-Gjatë trajnimit modeli mëson të:
+Different image capture conditions were intentionally used, including:
 
-- detektojë pozicionin e përgjigjeve
-- identifikojë përgjigjet e shënuara
-- dallojë përgjigjet e sakta nga ato të gabuara
-- analizojë strukturën e testit
+- Slight rotation of the paper
+- Minor perspective distortions
+- Different lighting conditions
+- Shadows created during scanning or photographing
+
+This diversity helps the model learn to perform well under **real-world conditions**, where input images are rarely perfectly aligned.
 
 ---
 
-# Expected Results
+# Data Validation and Quality Assurance
 
-Pas përfundimit të trajnimit, sistemi pritet të jetë në gjendje që nga një **imazh i një testi të plotësuar** të gjenerojë automatikisht rezultatet në formën:
+Before being included in the dataset, each image underwent a **manual verification process**.
+
+The following aspects were checked carefully:
+
+- Image clarity and sharpness
+- Visibility of candidate codes
+- Visibility of answer areas
+- Proper positioning of the exam sheet
+- Absence of extreme distortions
+- Proper resolution and image quality
+
+After the first verification stage, a **second manual review process** was conducted to ensure that:
+
+- No corrupted images were included
+- Annotation errors were avoided
+- Dataset structure remained consistent
+
+This two-step verification process ensures that the dataset maintains **high quality and reliability**.
+
+High-quality datasets are extremely important for machine learning models because poor data quality can significantly reduce model performance.
+
+---
+
+# Data Annotation Process
+
+After collecting and verifying the images, the next step was **data annotation**.
+
+Annotation involves labeling specific parts of each image so that the model can learn to detect them.
+
+The following objects were annotated:
+
+- Candidate code area
+- Answer bubble locations
+- Question areas
+- Marked answers
+
+Each annotation was saved using the **YOLO annotation format**, which includes:
+
+- Object class
+- Bounding box coordinates
+- Image reference
+
+These annotations are essential because they allow the YOLO model to **learn how to detect objects within exam sheet images**.
+
+---
+
+# Dataset Structure
+
+The dataset used in this project follows a structured format commonly used in YOLO training pipelines.
+
+The dataset contains:
+
+- Training images
+- Validation images
+- Corresponding annotation files
+
+Example structure:
+-- QETU KEMI ME VENDOS FOTO NGA STRUKTURA E RENDITJEVE TE FILES
+
+
+Each image has a corresponding `.txt` file that contains the object annotations.
+
+---
+
+# Model Training Pipeline
+
+The YOLO model training process follows several steps:
+
+## 1 Dataset Preparation
+The collected dataset is cleaned, verified, and structured.
+
+## 2 Data Splitting
+The dataset is divided into:
+
+- Training set
+- Validation set
+
+This helps the model learn while also allowing performance evaluation.
+
+## 3 Model Configuration
+The YOLO configuration files are adjusted to match:
+
+- Number of classes
+- Dataset structure
+- Training parameters
+
+## 4 Model Training
+The model is trained on the dataset using deep learning techniques.
+
+During training, the model learns to:
+
+- Detect answer bubbles
+- Identify candidate codes
+- Recognize marked answers
+- Distinguish filled vs empty responses
+
+## 5 Model Evaluation
+After training, the model is evaluated using validation data.
+
+Key performance metrics may include:
+
+- Precision
+- Recall
+- mAP (Mean Average Precision)
+
+---
+
+# Automated Exam Evaluation
+
+Once the model is trained, the system will be able to process new exam sheet images automatically.
+
+The process includes:
+
+1. Uploading the exam sheet image
+2. Running YOLO object detection
+3. Detecting candidate code and answers
+4. Comparing detected answers with the correct answer key
+5. Calculating the final score
+
+---
+
+# Expected Output
+
+The system will generate the final result in the following format:
+
+Example output:
+
+210453 - 17
+
+
+This allows fast evaluation of large numbers of exam sheets.
+
+---
+
+# Advantages of the System
+
+The proposed system provides several advantages:
+
+- Faster evaluation of entrance exams
+- Reduced manual correction workload
+- Increased grading accuracy
+- Consistent evaluation results
+- Scalable solution for large exam datasets
+- Reduced human error
+- Automated processing of exam sheets
+
+---
+
+# Technologies Used
+
+This project uses the following technologies:
+
+- Python
+- YOLO (You Only Look Once)
+- Computer Vision
+- Image Processing
+- Deep Learning
+- Machine Learning
+
+---
+
+# Future Improvements
+
+Future improvements may include:
+
+- Increasing the dataset size
+- Improving model accuracy
+- Integrating the system with a web platform
+- Supporting different exam formats
+- Real-time exam sheet analysis
+- Integration with university exam systems
+
+---
+
+# Conclusion
+
+This project demonstrates how **modern computer vision techniques** can be applied to solve real-world problems in educational institutions.
+
+By leveraging **YOLO object detection and machine learning**, it is possible to develop an automated system capable of evaluating entrance exams efficiently and accurately.
+
+Such systems can significantly improve the **efficiency, reliability, and scalability of exam evaluation processes**.
+
+---
+
+**Dataset Source:** Custom Dataset Created for This Project  
+
+### Professors
+Prof. Dr. Lele Ahmeti  
+Prof. Dr. Mërgim Hoti  
+
+**Date:** February 2026
