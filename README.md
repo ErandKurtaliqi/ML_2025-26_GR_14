@@ -307,4 +307,10 @@ Such systems can significantly improve the **efficiency, reliability, and scalab
 Prof. Dr. Lele Ahmeti  
 Prof. Dr. Mërgim Hoti  
 
+### Students
+Altin Pajaziti
+Ardi Bërdyna
+Erand Kurtaliqi
+
+
 **Date:** February 2026
