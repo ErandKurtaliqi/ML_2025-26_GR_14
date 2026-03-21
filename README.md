@@ -177,7 +177,8 @@ The dataset contains:
 - Corresponding annotation files
 
 Example structure:
--- QETU KEMI ME VENDOS FOTO NGA STRUKTURA E RENDITJEVE TE FILES
+<img width="449" height="246" alt="image" src="https://github.com/user-attachments/assets/8bf1bbc5-36ee-4e35-8bec-3693ef555646" />
+
 
 
 Each image has a corresponding `.txt` file that contains the object annotations.
