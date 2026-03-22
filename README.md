@@ -18,6 +18,14 @@
 
 ---
 
+# Disclaimer
+
+This project material is prepared strictly for internal academic project purposes.
+
+Publishing, reposting, redistributing, or using any part of this material online or in any other external context is not permitted without prior written approval from the project team and course supervisor.
+
+---
+
 # Project Overview
 
 This project focuses on the design and implementation of an **automated system for detecting and evaluating entrance exam tests** using **Artificial Intelligence and Computer Vision techniques**.
