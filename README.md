@@ -185,7 +185,8 @@ The dataset contains:
 - Corresponding annotation files
 
 Example structure:
-<img width="449" height="246" alt="image" src="https://github.com/user-attachments/assets/8bf1bbc5-36ee-4e35-8bec-3693ef555646" />
+<img width="302" height="259" alt="image" src="https://github.com/user-attachments/assets/5ddf6633-57cc-4750-bcd3-742f40fe1a51" />
+
 
 ---
 
