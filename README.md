@@ -68,7 +68,7 @@ The goal of this project is to develop an **AI-based automated grading system** 
 
 A **custom dataset** was created specifically for training the YOLO model used in this project.
 
-The dataset contains approximately **100 exam sheet samples**, representing different ways in which candidates may fill out their tests.
+The dataset contains approximately **100 exam sheet samples**, representing different ways candidates may fill out their tests, and includes around 2,000 annotated questions.
 
 To simulate realistic exam conditions, these test sheets were **distributed among randomly selected individuals**, who were asked to complete them as if they were taking an actual entrance exam.
 
