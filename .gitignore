@@ -1,0 +1,54 @@
+# ═══════ .NET / C# ═══════
+**/bin/
+**/obj/
+**/.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ═══════ Python ═══════
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+**/.venv/
+**/venv/
+*.whl
+
+# ═══════ YOLO / ML ═══════
+**/runs/detect/*/
+!**/runs/detect/runs/
+**/wandb/
+
+# ═══════ Node / Angular ═══════
+node_modules/
+dist/
+.angular/
+.sass-cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ═══════ IDE ═══════
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+*.code-workspace
+
+# ═══════ OS ═══════
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ═══════ Debug / Temp ═══════
+*.log
+debug_crops/
+auto_grid_debug.jpg
+row_debug_result.jpg
