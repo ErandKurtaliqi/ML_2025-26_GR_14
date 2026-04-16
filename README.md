@@ -298,1953 +298,1933 @@ Future improvements may include:
 
 ---
 
+### Extended Analysis - Phase 2
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
+In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+
+### Extended Analysis
+
+This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
+
+The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
+
+In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
+
+Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
+
+From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
+
+Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
+
 # Conclusion
 
 This project demonstrates how **modern computer vision techniques** can be applied to solve real-world problems in educational institutions.
 
-By leveraging **YOLO object detection and machine learning**, it is possible to develop an automated system capable of evaluating entrance exams efficiently and accurately.
+By leveraging **YOLO object detection and machine learning**, it is possible to develop an automated system capable of evaluating entrance exams efficiently and accurately. In conclusion, this project combines multiple disciplines including software engineering and system integration to deliver a practical and scalable solution.
 
 Such systems can significantly improve the **efficiency, reliability, and scalability of exam evaluation processes**.
 
 ---
-
-<div align="center">
-
-# University of Prishtina
-## Faculty of Electrical and Computer Engineering
-
-**Study Program:** Computer and Software Engineering – Master  
-**Course:** Machine Learning  
-**Group:** 14  
-
-# Project Topic
-## Training and Application of the YOLO Model for Automatic Detection and Evaluation of Entrance Exams at FIEK
-
-</div>
-
----
-
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
-
-### Extended Analysis
-
-This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
-
-The dataset used in this project has been carefully engineered to simulate real-world exam conditions. One of the most important aspects of machine learning systems is the ability to generalize beyond the training data. In this context, generalization refers to the model’s capability to perform accurately on unseen data.
-
-In practical scenarios, exam sheets are rarely captured under ideal conditions. Therefore, introducing noise, distortions, and irregularities into the dataset significantly improves the robustness of the trained model. These include variations in illumination, slight rotations, perspective transformations, and differences in marking intensity.
-
-Furthermore, the YOLO model architecture allows for real-time object detection, making it suitable for applications where performance and speed are critical. The bounding-box detection approach enables the model to localize relevant features efficiently.
-
-From a system architecture perspective, separating the machine learning logic into a Python API ensures modularity. The .NET backend acts as a communication layer, while Angular provides a user-friendly interface. This separation of concerns ensures maintainability and scalability.
-
-Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
-
-In conclusion, this project combines multiple disciplines including software engineering and system integration to deliver a practical and scalable solution.
-
 **Dataset Source:** Custom Dataset Created for This Project  
 
 ### Professors
