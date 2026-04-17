@@ -64,6 +64,14 @@ The goal of this project is to develop an **AI-based automated grading system** 
 
 ---
 
+The project is organized into tree main phases:
+
+- **Phase 1 – Current System Implementation**
+- **Phase 2 – YOLO Model Training and Improvement**
+- **Phase 3 –
+  
+---
+
 # Dataset Creation
 
 A **custom dataset** was created specifically for training the YOLO model used in this project.
@@ -312,7 +320,73 @@ From a system architecture perspective, separating the machine learning logic in
 
 Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
 
-In conclusion, this project combines multiple disciplines including software engineering, artificial intelligence, and system integration to deliver a practical and scalable solution.
+## Current Architecture
+
+The current project structure is divided into the following main parts:
+
+- **Dataset/** – contains exam sheet images and related project material
+- **ML ASP.NET service / ExamNumberReader/** – main backend service in ASP.NET Core
+- **frontend/** – Angular frontend application
+- **yolo-api/** – Python service responsible for detection-related logic
+
+## Backend – ASP.NET Core Service
+
+The ASP.NET Core backend is responsible for the main business logic of the system.
+
+Its responsibilities include:
+
+- Receiving exam sheet images
+- Managing grading logic
+- Calling OCR and detection services
+- Comparing detected answers with the answer key
+- Exporting results
+- Exposing API endpoints for the frontend
+
+The backend includes:
+
+- **Controllers** for API endpoints
+- **Models** for data structures
+- **Services** for grading, OCR, export, and answer key processing
+
+## Python Detection API
+
+A dedicated Python API is included in the system architecture to support machine learning and detection logic.
+
+This module contains:
+
+- Configuration files
+- Detection service logic
+- Model-related code
+- Python entry points for execution
+
+The Python service is designed to be modular, so it can later be extended with a trained YOLO model in Phase 2.
+
+## Frontend – Angular Application
+
+The frontend provides the user interface of the system.
+
+Its main responsibilities are:
+
+- Uploading exam sheet images
+- Sending requests to the backend
+- Displaying extracted results
+- Presenting grading information in a user-friendly format
+
+This layer ensures easier interaction with the automated grading system.
+
+## Current Workflow
+
+The current system workflow is as follows:
+
+1. The user uploads an exam sheet image
+2. The frontend sends the image to the backend
+3. The backend processes the request
+4. OCR / detection logic is executed
+5. The candidate code is extracted
+6. Answers are detected and interpreted
+7. The answers are compared with the correct answer key
+8. The final score is calculated
+9. The result is returned to the frontend
 
 # Conclusion
 
