@@ -1,0 +1,48 @@
+Table: x=1774, y=1085, w=911, h=1393
+Method: TABLE_RECT+PERSP+VLINES+HLINES
+Col boundaries: ['1942', '2126', '2310', '2495', '2678']
+
+(2590, 2429) conf=0.83 -> Q20 D (col=3)
+(2067, 2360) conf=0.77 -> Q19 A (col=0)
+(2358, 1633) conf=0.76 -> Q8 C (col=2)
+(2188, 1576) conf=0.75 -> Q7 B (col=1)
+(2552, 2019) conf=0.70 -> Q14 D (col=3)
+(2232, 2230) conf=0.69 -> Q17 B (col=1)
+(2338, 1382) conf=0.69 -> Q4 C (col=2)
+(2009, 1204) conf=0.67 -> Q1 A (col=0)
+(2052, 2093) conf=0.65 -> Q15 A (col=0)
+(2530, 1755) conf=0.59 -> Q10 D (col=3)
+(2179, 1386) conf=0.47 -> Q4 B (col=1)
+(2038, 1831) conf=0.45 -> Q11 A (col=0)
+(2041, 1961) conf=0.44 -> Q13 A (col=0)
+(2173, 1267) conf=0.43 -> Q2 B (col=1)
+(2393, 2156) conf=0.37 -> Q16 C (col=2)
+(2505, 1443) conf=0.34 -> Q5 D (col=3)
+(2344, 1509) conf=0.32 -> Q6 C (col=2)
+(2406, 2293) conf=0.31 -> Q18 C (col=2)
+(2558, 2085) conf=0.23 -> Q15 D (col=3)
+(2373, 1891) conf=0.19 -> Q12 C (col=2)
+(2181, 1447) conf=0.18 -> Q5 B (col=1)
+(2336, 1325) conf=0.17 -> Q3 C (col=2)
+
+Final answers:
+  Q 1: A
+  Q 2: B
+  Q 3: C
+  Q 4: C
+  Q 5: D
+  Q 6: C
+  Q 7: B
+  Q 8: C
+  Q 9: -
+  Q10: D
+  Q11: A
+  Q12: C
+  Q13: A
+  Q14: D
+  Q15: A
+  Q16: C
+  Q17: B
+  Q18: C
+  Q19: A
+  Q20: D
