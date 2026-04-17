@@ -68,7 +68,7 @@ The project is organized into tree main phases:
 
 - **Phase 1 – Current System Implementation**
 - **Phase 2 – YOLO Model Training and Improvement**
-- **Phase 3 – Improvement in model**
+- **Phase 3 – Improvement in model (Future Improvements)**
   
 ---
 
