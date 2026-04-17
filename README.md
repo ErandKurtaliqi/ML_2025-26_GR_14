@@ -333,6 +333,210 @@ The current project structure is divided into the following main parts:
 - **frontend/** – Angular frontend application
 - **yolo-api/** – Python service responsible for detection-related logic
 
+# Exam Grading System
+
+Automatic test evaluation system using YOLO for answer detection and .NET for student ID recognition.
+
+## Architecture
+
+```
+┌─────────────────────┐     ┌─────────────────────┐     ┌─────────────────────┐
+│   Angular Frontend  │────▶│    .NET API         │────▶│   YOLO API          │
+│   (Port 4200)       │     │    (Port 5000)      │     │   (Port 8001)       │
+└─────────────────────┘     └─────────────────────┘     └─────────────────────┘
+         │                           │                           │
+         │                           │                           │
+         ▼                           ▼                           ▼
+    Upload CSV            Extract Student ID           Detect Marked
+    Answer Key            (Tesseract + ONNX)           Answers (YOLO)
+```
+
+## Components
+
+### 1. YOLO API (`yolo-api/`)
+FastAPI service for detecting marked answers on exam sheets.
+
+**Endpoints:**
+- `GET /health` - Health check
+- `POST /detect` - Detect answers from single image
+- `POST /detect/batch` - Detect answers from multiple images
+
+### 2. .NET API (`ML ASP.net service/`)
+ASP.NET Core API for exam processing and grading.
+
+**Endpoints:**
+- `POST /api/grading/answer-key` - Upload CSV answer key
+- `GET /api/grading/answer-key/current` - Get current answer key
+- `POST /api/grading/grade` - Grade single exam
+- `POST /api/grading/grade/batch` - Grade multiple exams
+- `POST /api/grading/export/csv` - Export results to CSV
+- `POST /api/grading/export/excel` - Export results to Excel
+- `POST /api/image/extract-number` - Extract 5-digit student ID
+
+### 3. Angular Frontend (`frontend/`)
+Modern web interface for exam grading.
+
+**Features:**
+- Step-by-step wizard interface
+- Drag & drop file upload
+- Real-time grading results
+- Results table with color-coded answers
+- CSV/Excel export
+
+## Quick Start
+
+### Prerequisites
+- Python 3.10+
+- .NET 9.0 SDK
+- Node.js 18+
+- YOLO trained model (`best.pt`)
+- Tesseract OCR data files
+
+### 1. Start YOLO API
+
+```bash
+cd yolo-api
+python -m venv .venv
+.venv\Scripts\activate  # Windows
+# source .venv/bin/activate  # Linux/Mac
+pip install -r requirements.txt
+python run.py
+```
+
+The API will be available at `http://localhost:8001`
+
+### 2. Start .NET API
+
+```bash
+cd "ML ASP.net service\ExamNumberReader"
+dotnet run
+```
+
+The API will be available at `http://localhost:5000`
+
+### 3. Start Angular Frontend
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+Open `http://localhost:4200` in your browser
+
+## CSV Answer Key Format
+
+Create a CSV file with question numbers and correct answers:
+
+```csv
+1,A
+2,B
+3,C
+4,D
+5,A
+...
+20,B
+```
+
+Or simply list answers in order (one per line):
+
+```
+A
+B
+C
+D
+A
+...
+```
+
+## Configuration
+
+### YOLO API
+Environment variables:
+- `YOLO_MODEL_PATH` - Path to trained YOLO model (default: auto-detected)
+- `API_HOST` - Host to bind (default: 0.0.0.0)
+- `API_PORT` - Port to bind (default: 8001)
+
+### .NET API
+`appsettings.json`:
+```json
+{
+  "YoloApi": {
+    "BaseUrl": "http://localhost:8001"
+  }
+}
+```
+
+### Angular Frontend
+`environment.ts`:
+```typescript
+export const environment = {
+  apiUrl: 'http://localhost:5000/api'
+};
+```
+
+## Model Training
+
+The YOLO model was trained to detect marked checkboxes. Training scripts are in `student-answer-yolo/student-answer-yolo/scripts/`:
+
+- `train.py` - Train the YOLO model
+- `predict.py` - Test predictions
+- `grade_students.py` - Complete grading pipeline
+
+## Project Structure
+
+```
+ML-Web/
+├── frontend/                    # Angular web application
+│   ├── src/
+│   │   ├── app/
+│   │   │   ├── components/
+│   │   │   ├── services/
+│   │   │   └── models/
+│   │   └── styles.scss
+│   └── package.json
+├── ML ASP.net service/          # .NET Core API
+│   └── ExamNumberReader/
+│       ├── Controllers/
+│       ├── Services/
+│       ├── Models/
+│       └── Program.cs
+├── yolo-api/                    # FastAPI YOLO service
+│   ├── app/
+│   │   ├── main.py
+│   │   ├── detection_service.py
+│   │   └── models.py
+│   └── requirements.txt
+└── student-answer-yolo/         # YOLO training & scripts
+    └── student-answer-yolo/
+        ├── scripts/
+        ├── dataset/
+        ├── runs/
+        └── data.yaml
+```
+
+## API Documentation
+
+### Swagger UI
+- .NET API: http://localhost:5000
+- YOLO API: http://localhost:8001/docs
+
+## Troubleshooting
+
+### YOLO model not loading
+Ensure the model file exists at the configured path. Check logs for the actual path being used.
+
+### OCR not working
+Make sure Tesseract data files are in the `tessdata` folder and the MNIST ONNX model is in the `models` folder.
+
+### CORS errors
+Both APIs are configured to allow all origins. If you still see CORS errors, check the browser console for more details for debug.
+
+## License
+
+This project is for educational purposes.
+# ML_web
+
 ---
 
 ## Backend – ASP.NET Core Service
