@@ -632,13 +632,13 @@ These challenges are addressed through:
 
 Planned future enhancements include:
 
-- 📂 Expanding the dataset significantly  
-- 🎯 Improving model accuracy through tuning  
-- 🔄 Comparing different YOLO versions (YOLOv5, YOLOv8, etc.)  
-- 🧪 Experimenting with different architectures  
-- 📝 Supporting additional exam formats  
-- ☁️ Deploying on scalable cloud infrastructure  
-- 🔗 Deeper integration with the web platform  
+- Expanding the dataset significantly  
+- Improving model accuracy through tuning  
+- Comparing different YOLO versions (YOLOv5, YOLOv8, etc.)  
+- Experimenting with different architectures  
+- Supporting additional exam formats  
+- Deploying on scalable cloud infrastructure  
+- Deeper integration with the web platform  
 
 Phase 2 is a **critical milestone** in the project, transforming it from a conceptual system into an **intelligent, automated solution**.
 
