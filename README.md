@@ -68,9 +68,11 @@ The project is organized into tree main phases:
 
 - **Phase 1 – Current System Implementation**
 - **Phase 2 – YOLO Model Training and Improvement**
-- **Phase 3 –
+- **Phase 3 – Improvement in model**
   
 ---
+
+# Phase 1
 
 # Dataset Creation
 
@@ -306,7 +308,7 @@ Future improvements may include:
 
 ---
 
-### Extended Analysis - Phase 2
+# Phase 2
 
 This section provides an in-depth academic discussion regarding dataset robustness, model generalization, and system scalability.
 
@@ -320,6 +322,8 @@ From a system architecture perspective, separating the machine learning logic in
 
 Another important aspect is the evaluation of the system. Metrics such as precision, recall, and mean average precision (mAP) are used to assess the model’s performance. High precision ensures that detected answers are correct, while high recall ensures that most relevant answers are detected.
 
+---
+
 ## Current Architecture
 
 The current project structure is divided into the following main parts:
@@ -328,6 +332,8 @@ The current project structure is divided into the following main parts:
 - **ML ASP.NET service / ExamNumberReader/** – main backend service in ASP.NET Core
 - **frontend/** – Angular frontend application
 - **yolo-api/** – Python service responsible for detection-related logic
+
+---
 
 ## Backend – ASP.NET Core Service
 
@@ -348,6 +354,8 @@ The backend includes:
 - **Models** for data structures
 - **Services** for grading, OCR, export, and answer key processing
 
+---
+
 ## Python Detection API
 
 A dedicated Python API is included in the system architecture to support machine learning and detection logic.
@@ -360,6 +368,8 @@ This module contains:
 - Python entry points for execution
 
 The Python service is designed to be modular, so it can later be extended with a trained YOLO model in Phase 2.
+
+---
 
 ## Frontend – Angular Application
 
@@ -374,6 +384,8 @@ Its main responsibilities are:
 
 This layer ensures easier interaction with the automated grading system.
 
+---
+
 ## Current Workflow
 
 The current system workflow is as follows:
@@ -387,6 +399,256 @@ The current system workflow is as follows:
 7. The answers are compared with the correct answer key
 8. The final score is calculated
 9. The result is returned to the frontend
+
+---
+
+## Overview of Phase 2
+
+Phase 2 represents the **core machine learning stage** of the project, where the system transitions from basic architectural design and preprocessing logic into a fully functional **intelligent detection pipeline**.
+
+The primary focus of this phase is the **training, validation, and optimization of a YOLO-based object detection model**, designed specifically for analyzing exam sheets.
+
+Unlike Phase 1, which focuses on system structure and data flow, this phase emphasizes:
+
+- Model accuracy  
+- Detection reliability  
+- Real-world robustness  
+- Scalability for production environments  
+
+The trained model aims to detect and interpret key elements of exam sheets, including:
+
+- Candidate code area  
+- Answer bubbles  
+- Marked answers  
+- Question-related regions  
+
+---
+
+## Machine Learning Approach
+
+The project leverages the power of **YOLO (You Only Look Once)**, a state-of-the-art real-time object detection algorithm.
+
+YOLO is chosen because of its:
+
+- High detection speed  
+- Strong accuracy for object localization  
+- Ability to detect multiple classes in a single pass  
+- Suitability for real-time systems  
+
+The model processes exam sheet images and produces:
+
+- Bounding boxes  
+- Class labels  
+- Confidence scores  
+
+These outputs are then used for further processing, including **answer recognition and grading logic**.
+
+---
+
+## Main Activities of Phase 2
+
+The second phase consists of multiple structured steps:
+
+### 1. Dataset Preparation
+- Collecting real exam sheets
+- Ensuring diversity in format and marking styles
+- Organizing images into structured datasets
+
+### 2. Image Verification
+- Checking image quality
+- Removing corrupted or unusable samples
+- Standardizing image formats and resolutions
+
+### 3. Data Annotation
+- Labeling all relevant regions using bounding boxes
+- Ensuring annotation consistency
+- Exporting labels in YOLO format
+
+### 4. Dataset Splitting
+- Training set (≈70–80%)
+- Validation set (≈10–20%)
+- Test set (≈10%)
+
+### 5. YOLO Configuration
+- Defining class labels
+- Configuring model architecture
+- Setting training parameters (epochs, batch size, learning rate)
+
+### 6. Model Training
+- Training the YOLO model on annotated data
+- Monitoring loss and accuracy metrics
+- Adjusting hyperparameters when necessary
+
+### 7. Model Validation
+- Evaluating model on validation dataset
+- Detecting overfitting or underfitting
+- Fine-tuning model performance
+
+### 8. Performance Evaluation
+- Measuring:
+  - Precision  
+  - Recall  
+  - mAP (mean Average Precision)  
+- Analyzing detection errors
+
+### 9. System Integration
+- Integrating the trained model into backend (Python / API)
+- Connecting results with ASP.NET Core logic
+- Preparing outputs for Angular frontend
+
+---
+
+## Expected Goal of Phase 2
+
+At the completion of this phase, the system should include a **fully trained and optimized YOLO model** capable of:
+
+- Accurately detecting all relevant exam elements  
+- Handling real-world variations in marking  
+- Supporting automated grading workflows  
+
+This will significantly improve:
+
+- Accuracy  
+- Reliability  
+- Efficiency  
+
+> A more detailed technical breakdown will be included in future README updates.
+
+---
+
+## Dataset
+
+A custom dataset was created specifically for this project to simulate real exam scenarios.
+
+### Dataset Characteristics
+
+- ~100 exam sheet samples  
+- Multiple marking styles and conditions  
+
+### Included Scenarios
+
+- Fully completed sheets  
+- Partially completed sheets  
+- Blank answers  
+- Multiple marked answers  
+- Light and strong markings  
+- Crossed-out answers  
+- Changed responses  
+- Slight misalignment of markings  
+
+### Image Sources
+
+Images were collected using:
+
+- Document scanners  
+- Smartphone cameras  
+- Standard digital cameras  
+
+This diversity ensures the model learns to handle **real-world noise and variability**.
+
+---
+
+## Data Annotation
+
+Annotation is a critical part of this phase.
+
+### Annotated Elements
+
+- Candidate code area  
+- Answer bubble locations  
+- Marked answers  
+- Question regions  
+
+### Annotation Format
+
+All annotations follow the **YOLO format**, where each object is defined by:
+<class_id> <x_center> <y_center> <width> <height>
+
+
+### Challenges in Annotation
+
+- Ensuring consistency across samples  
+- Handling ambiguous markings  
+- Labeling overlapping regions  
+
+---
+
+## Technologies Used
+
+This project integrates multiple technologies across different layers:
+
+### Backend
+- ASP.NET Core (API & business logic)
+
+### Frontend
+- Angular (UI and visualization)
+
+### AI / Processing
+- Python  
+- YOLO  
+- OCR (for candidate code extraction)  
+
+### Core Domains
+- Machine Learning  
+- Computer Vision  
+- Image Processing  
+
+---
+
+## Advantages of the Proposed System
+
+The system provides several key benefits:
+
+- Faster exam evaluation  
+- Reduced manual workload  
+- Increased grading consistency  
+- High scalability  
+- Reduced human error  
+- Automated result generation  
+
+Additionally, the system enables **standardized evaluation**, which is difficult to achieve manually.
+
+---
+
+## Challenges Faced
+
+During this phase, several challenges were identified:
+
+- Variability in answer marking styles  
+- Poor image quality in some samples  
+- Overlapping or unclear markings  
+- Dataset size limitations  
+- Balancing precision vs recall  
+
+These challenges are addressed through:
+
+- Data augmentation  
+- Improved annotation quality  
+- Model tuning  
+
+---
+
+## Future Improvements
+
+Planned future enhancements include:
+
+- 📂 Expanding the dataset significantly  
+- 🎯 Improving model accuracy through tuning  
+- 🔄 Comparing different YOLO versions (YOLOv5, YOLOv8, etc.)  
+- 🧪 Experimenting with different architectures  
+- 📝 Supporting additional exam formats  
+- ☁️ Deploying on scalable cloud infrastructure  
+- 🔗 Deeper integration with the web platform  
+
+Phase 2 is a **critical milestone** in the project, transforming it from a conceptual system into an **intelligent, automated solution**.
+
+The successful implementation of this phase lays the foundation for:
+
+- Fully automated exam grading  
+- Real-time processing capabilities  
+- Scalable deployment in educational environments  
+
+---
 
 # Conclusion
 
