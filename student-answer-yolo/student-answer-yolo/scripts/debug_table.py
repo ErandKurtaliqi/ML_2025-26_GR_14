@@ -1,7 +1,7 @@
 import cv2
 from ultralytics import YOLO
 
-IMAGE_PATH = "dataset/images/test/20260309_210021.jpg"
+IMAGE_PATH = "dataset/images/test/IMG_8178.jpg"
 MODEL_PATH = "runs/detect/runs/student_answer_detection/weights/best.pt"
 
 TABLE_X1 = 2180    

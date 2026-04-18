@@ -229,7 +229,7 @@ from ultralytics import YOLO
 # --- Setup ---
 MODEL_PATH = "runs/detect/runs/student_answer_v2/weights/best.pt"
 
-IMAGE_PATH = "dataset/images/train/IMG_8175.jpg"
+IMAGE_PATH = "dataset/images/test/IMG_8177.jpg"
 model = YOLO(MODEL_PATH)
 
 def order_points(pts):
