@@ -1,15 +1,3 @@
-# from ultralytics import YOLO
-
-# model = YOLO("runs/detect/runs/student_answer_detection/weights/best.pt")
-
-# results = model.predict(
-#     source="dataset/images/test",
-#     conf=0.15,
-#     # classes=[0],   # vetëm marked_box
-#     save=True
-# )
-
-# print("Prediction completed.")
 
 from ultralytics import YOLO
 
