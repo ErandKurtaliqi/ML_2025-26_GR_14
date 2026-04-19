@@ -51,17 +51,14 @@ def remove_garbage_files():
     """Remove classes.txt and orphaned files."""
     removed = 0
     
-    # Remove classes.txt from labels/train
     classes_txt = os.path.join(DATASET, "labels", "train", "classes.txt")
     if os.path.exists(classes_txt):
         os.remove(classes_txt)
         print(f"  [REMOVED] classes.txt from labels/train")
         removed += 1
     
-    # Remove orphaned label (20260309_210922.txt in train labels but no matching image)
     orphan = os.path.join(DATASET, "labels", "train", "20260309_210922.txt")
     if os.path.exists(orphan):
-        # Check if the image exists in train
         img_exists = any(
             os.path.exists(os.path.join(DATASET, "images", "train", f"20260309_210922.{ext}"))
             for ext in ['jpg', 'jpeg', 'png']

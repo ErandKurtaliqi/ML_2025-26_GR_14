@@ -30,21 +30,18 @@ def validate():
         print(f"  Images: {len(images)}, Labels: {len(labels)}")
         print(f"{'='*60}")
 
-        # Check missing labels
         missing_labels = set(images.keys()) - set(labels.keys())
         if missing_labels:
             print(f"  [WARN] {len(missing_labels)} images WITHOUT labels:")
             for m in sorted(missing_labels)[:5]:
                 print(f"    - {m}")
         
-        # Check extra labels
         extra_labels = set(labels.keys()) - set(images.keys())
         if extra_labels:
             print(f"  [WARN] {len(extra_labels)} labels WITHOUT images:")
             for e in sorted(extra_labels)[:5]:
                 print(f"    - {e}")
         
-        # Analyze label contents
         line_counts = []
         class_ids = Counter()
         bad_labels = []
@@ -69,7 +66,6 @@ def validate():
                     class_ids[cls_id] += 1
                     bbox_sizes.append((width, height))
                     
-                    # Check normalized coordinates
                     if not (0 <= x_center <= 1 and 0 <= y_center <= 1):
                         bad_labels.append((name, f"OOB center: {x_center:.4f}, {y_center:.4f}"))
                     if not (0 < width <= 1 and 0 < height <= 1):
@@ -101,12 +97,10 @@ def validate():
             print(f"    Width:  min={min(widths):.5f}, max={max(widths):.5f}, avg={sum(widths)/len(widths):.5f}")
             print(f"    Height: min={min(heights):.5f}, max={max(heights):.5f}, avg={sum(heights)/len(heights):.5f}")
             
-            # Check for very tiny boxes
             tiny = sum(1 for w, h in bbox_sizes if w < 0.01 or h < 0.01)
             if tiny:
                 print(f"    [WARN] {tiny} boxes are VERY TINY (< 1% of image)")
         
-        # Check image sizes
         if images:
             print(f"\n  Checking image dimensions (first 10)...")
             img_sizes = Counter()
@@ -121,7 +115,6 @@ def validate():
             for size, count in img_sizes.most_common():
                 print(f"    {size[0]}x{size[1]}: {count} images")
 
-    # Print data.yaml info
     data_yaml = os.path.join(os.path.dirname(DATASET_ROOT), "data.yaml")
     if os.path.exists(data_yaml):
         print(f"\n{'='*60}")

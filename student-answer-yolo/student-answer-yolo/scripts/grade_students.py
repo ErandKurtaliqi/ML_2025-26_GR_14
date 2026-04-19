@@ -24,21 +24,16 @@ import numpy as np
 from ultralytics import YOLO
 import easyocr
 
-# ─────────── CONFIG ───────────
-MODEL_PATH = "runs/student_answer_v2/weights/best.pt"
+MODEL_PATH = "runs/detect/runs/student_answer_v2/weights/best.pt"
 NUM_ROWS = 20
 NUM_COLS = 4
 OPTIONS = ["A", "B", "C", "D"]
 RESULTS_CSV = "results.csv"
 DEBUG_DIR = "debug_output"
 
-# ─────────── ANSWER KEY ───────────
-ANSWER_KEY = None  # Set via --key flag or edit here
+ANSWER_KEY = None 
 
 
-# ═══════════════════════════════════════════════════════════════════
-# TABLE DETECTION: Find the answer grid using line detection
-# ═══════════════════════════════════════════════════════════════════
 
 def find_table_rect(img):
     """
