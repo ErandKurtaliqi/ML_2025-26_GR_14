@@ -74,7 +74,11 @@ class AnswerDetectionService:
             answers = {}
             detected_list = []
             for q_num, ans_list in raw_answers.items():
-                answer = ans_list[0].upper()
+                # Exactly one detected letter → use it; two or more (or none) → neither (empty)
+                if len(ans_list) == 1:
+                    answer = str(ans_list[0]).strip().upper()
+                else:
+                    answer = ""
                 answers[q_num] = answer
                 detected_list.append(DetectedAnswer(
                     question=q_num,
