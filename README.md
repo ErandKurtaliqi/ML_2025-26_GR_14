@@ -1161,6 +1161,8 @@ Accuracy: Minimizes human error by automating the transcription of handwriting.
 Scalability: Designed to handle thousands of exam entries efficiently, making it an ideal solution for large-scale academic institutions.
 
 ---
+Foton qetu
+--
 
 ## Full Pipeline
 
