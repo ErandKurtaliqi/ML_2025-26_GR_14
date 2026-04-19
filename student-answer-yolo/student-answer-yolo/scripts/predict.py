@@ -1,7 +1,7 @@
 
 from ultralytics import YOLO
 
-model = YOLO("runs/student_answer_v2/weights/best.pt")
+model = YOLO("runs/detect/runs/student_answer_v2/weights/best.pt")
 
 results = model.predict(
     source="dataset/images/test",
