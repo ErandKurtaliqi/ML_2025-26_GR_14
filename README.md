@@ -1,4 +1,4 @@
-<div align="center">
+<img width="1500" height="906" alt="IMG-20260322-WA0005" src="https://github.com/user-attachments/assets/c220d37c-2bbe-477e-901b-db6c6efac066" /><div align="center">
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/University_of_Prishtina_logo.svg/1200px-University_of_Prishtina_logo.svg.png" width="150" alt="University Logo" />
 
@@ -880,6 +880,98 @@ The YOLO model is trained to:
 
 ---
 
+## Model Prediction (Inference)
+
+This image shows the output of the trained **YOLO model** during the **prediction (inference) phase**.
+
+After training, the model is used to analyze unseen test images and automatically detect and classify answer boxes.
+
+---
+
+## What is shown in the image
+
+- A real student test from **FIEK (Bachelor level)**
+- The trained YOLO model applied on the image
+- Blue bounding boxes around detected answer options
+- Each box is labeled with:
+  - predicted class (`empty_box` or `marked_box`)
+  - confidence score (e.g., 0.75, 0.82)
+
+---
+
+## Model Behavior
+
+During inference, the YOLO model:
+
+- Detects all answer boxes in the test
+- Classifies each box as:
+  - **`empty_box`** → not selected
+  - **`marked_box`** → selected by the student
+- Assigns a **confidence score** to each prediction
+
+Example label:
+```
+empty_box 0.81
+```
+
+This means:
+- the model predicts the box is empty
+- with 81% confidence
+
+---
+
+## Prediction Script
+
+The prediction is executed using a custom script:
+
+```
+python scripts/predict.py
+```
+
+This script:
+
+- Loads the trained YOLO model
+- Runs inference on test images
+- Draws bounding boxes and labels
+- Saves the output in:
+
+```
+runs/detect/predict/
+```
+
+---
+
+## Output Interpretation
+
+- Blue rectangles → detected answer boxes  
+- Labels → predicted class + confidence  
+- High confidence → more reliable prediction  
+
+This output is used for:
+
+- Identifying selected answers  
+- Calculating test scores automatically  
+- Fully automating the evaluation process  
+
+---
+<img width="1294" height="805" alt="IMG-20260322-WA0001" src="https://github.com/user-attachments/assets/49ac038a-75d6-4785-8b71-294efcb5a2f8" />
+
+## Importance in the Project
+
+This step demonstrates the **real-world application** of the trained model:
+
+> Automatically reading and evaluating student test sheets without human intervention.
+
+It validates that the model can:
+
+- Generalize to new test images  
+- Detect and classify answers correctly  
+- Support automated grading systems  
+
+---
+
+---
+
 ## Role in the Project
 
 This dataset is part of the project:
@@ -891,6 +983,96 @@ The goal is to:
 - Eliminate manual grading  
 - Improve evaluation accuracy  
 - Automatically process student test sheets at **FECE (Bachelor level)**  
+
+---
+
+## Precision and Detection Accuracy
+
+This image highlights a detailed view of the labeling process and is particularly useful for understanding the **precision requirements** of the YOLO model.
+
+<img width="1500" height="906" alt="IMG-20260322-WA0005" src="https://github.com/user-attachments/assets/328f3a84-906a-445e-b962-4c6e44176845" />
+
+---
+
+## Why Precision Matters
+
+In this project, precision is critical because:
+
+- Each question has **multiple answer options (A, B, C, D)**
+- Only **one box should be marked per question**
+- Even a small detection error can lead to:
+  - incorrect answer interpretation
+  - wrong final score
+
+---
+
+## Definition of Precision
+
+**Precision** measures how many of the detected boxes are actually correct.
+
+```
+Precision = True Positives / (True Positives + False Positives)
+```
+
+- **True Positive (TP)** → correctly detected marked box  
+- **False Positive (FP)** → model detects a box as marked when it is actually empty  
+
+---
+
+## Challenges in This Dataset
+
+From the image, we can observe several challenges:
+
+### 1. Close Proximity of Boxes
+- Answer boxes are very close to each other  
+- The model must avoid detecting multiple boxes as one  
+
+### 2. Similar Visual Patterns
+- Empty and marked boxes have similar structure  
+- The only difference is the presence of an **X mark**
+
+### 3. Handwritten Variations
+- The "X" marks are handwritten  
+- They vary in:
+  - thickness
+  - angle
+  - position  
+
+This increases the difficulty of classification.
+
+---
+
+## Potential Errors
+
+Without high precision, the model may:
+
+- Detect an **empty box as marked** (False Positive)
+- Detect **multiple answers for one question**
+- Miss a marked box entirely (False Negative)
+
+---
+
+## Improving Precision
+
+To achieve high precision, the following strategies were applied:
+
+- **Accurate bounding box labeling** using LabelImg  
+- Clean dataset with correct annotations  
+- Data augmentation (rotation, brightness, noise)  
+- Fine-tuning YOLO model parameters  
+- Validation on unseen data  
+
+---
+
+## Expected Outcome
+
+A well-trained model should:
+
+- Detect only the **correct answer boxes**
+- Avoid false detections  
+- Maintain high confidence scores for correct predictions  
+
+> High precision ensures that the automated grading system is reliable and trustworthy.
 
 ---
 
