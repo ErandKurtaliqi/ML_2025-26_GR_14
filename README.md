@@ -481,6 +481,81 @@ The YOLO model was trained to detect marked checkboxes. Training scripts are in 
 - `predict.py` - Test predictions
 - `grade_students.py` - Complete grading pipeline
 
+### Training run: `student_answer_v2`
+
+Ultralytics YOLO writes validation plots and batch visualizations under `student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/`. The figures below summarize how the detector behaves on the validation set after training (curves are typically shown **per class** and/or **aggregated** depending on YOLO version and settings).
+
+These assets live in [`student_answer_v2`](https://github.com/ErandKurtaliqi/ML_2025-26_GR_14/tree/main/student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2). Images below use **paths relative to the repo root** so GitHub can render them the same way as other files in the tree.
+
+**Why the preview can look “broken”**
+
+1. **Cursor / VS Code “Markdown Preview”** loads `![...](path)` from **your disk**. If the `.png` / `.jpg` files are not in that folder locally (only on GitHub), the preview shows an empty or broken icon. **Fix:** run `git pull`, or copy the images into `student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/`, or open the README on **github.com** after you push—there the images match the repository files.
+2. **Do not use** `https://github.com/.../blob/main/...png` inside `![alt](...)`. That URL is an **HTML page**, not the image bytes. For hotlinking outside GitHub you would use `https://raw.githubusercontent.com/<user>/<repo>/<branch>/...` instead; GitHub’s own README still works best with **relative** paths.
+3. **Private repository:** anonymous `raw.githubusercontent.com` links often **404** in a preview; relative paths in the README are resolved by GitHub with your session and usually render correctly on the website.
+
+#### Box F1 curve (`BoxF1_curve.png`)
+
+The **F1 score** combines precision and recall into one number. This plot shows **F1 versus confidence threshold**, so you can see at which operating point the detector best balances false positives and false negatives when turning raw boxes into “marked vs empty” decisions.
+
+![Box F1 curve](student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/BoxF1_curve.png)  
+*[View file on GitHub](https://github.com/ErandKurtaliqi/ML_2025-26_GR_14/blob/main/student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/BoxF1_curve.png)*
+
+#### Precision–Recall curve (`BoxPR_curve.png`)
+
+The **PR curve** plots precision against recall across thresholds. A curve that stays **high and toward the upper-right** indicates strong ranking of true boxes; the area under this curve is related to **Average Precision (AP)** for the box-detection task.
+
+![Box PR curve](student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/BoxPR_curve.png)  
+*[View file on GitHub](https://github.com/ErandKurtaliqi/ML_2025-26_GR_14/blob/main/student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/BoxPR_curve.png)*
+
+#### Precision vs confidence (`BoxP_curve.png`)
+
+This graph shows how **precision changes as the confidence cutoff is raised**. Higher thresholds usually increase precision (fewer weak detections kept) but may drop recall if correct boxes are filtered out.
+
+![Box precision vs confidence](student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/BoxP_curve.png)  
+*[View file on GitHub](https://github.com/ErandKurtaliqi/ML_2025-26_GR_14/blob/main/student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/BoxP_curve.png)*
+
+#### Recall vs confidence (`BoxR_curve.png`)
+
+This graph shows how **recall changes with the confidence threshold**. Lower thresholds keep more detections, which often helps recall but can introduce more false positives—use it together with the precision plot to choose a threshold.
+
+![Box recall vs confidence](student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/BoxR_curve.png)  
+*[View file on GitHub](https://github.com/ErandKurtaliqi/ML_2025-26_GR_14/blob/main/student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/BoxR_curve.png)*
+
+#### Confusion matrix (`confusion_matrix.png`)
+
+The **confusion matrix** counts predictions versus ground-truth classes (e.g., `empty_box` vs `marked_box`). Off-diagonal cells show which classes are confused with each other and guide targeted fixes (annotation quality, class balance, or augmentation).
+
+![Confusion matrix](student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/confusion_matrix.png)  
+*[View file on GitHub](https://github.com/ErandKurtaliqi/ML_2025-26_GR_14/blob/main/student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/confusion_matrix.png)*
+
+#### Normalized confusion matrix (`confusion_matrix_normalized.png`)
+
+The same information as the confusion matrix, but **normalized per true class** (rows or columns depending on the tool), so you can compare error rates **between classes** even when class counts differ.
+
+![Normalized confusion matrix](student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/confusion_matrix_normalized.png)  
+*[View file on GitHub](https://github.com/ErandKurtaliqi/ML_2025-26_GR_14/blob/main/student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/confusion_matrix_normalized.png)*
+
+#### Label distribution (`labels.jpg`)
+
+Ultralytics generates a **label overview** (class frequency, box sizes, and positions in image coordinates). It helps verify **annotation balance** and whether boxes are concentrated in certain regions of the sheet, which affects learning and evaluation.
+
+![Label distribution](student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/labels.jpg)  
+*[View file on GitHub](https://github.com/ErandKurtaliqi/ML_2025-26_GR_14/blob/main/student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/labels.jpg)*
+
+#### Training results summary (`results.png`)
+
+`results.png` is a **multi-panel summary** of the run: training and validation losses, and core detection metrics (such as precision, recall, and mAP) **over epochs**. It is the fastest way to spot overfitting (train improves while validation stalls) or unstable training.
+
+![Training results summary](student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/results.png)  
+*[View file on GitHub](https://github.com/ErandKurtaliqi/ML_2025-26_GR_14/blob/main/student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/results.png)*
+
+#### Training batch sample (`train_batch780.jpg`)
+
+A **mosaic of training batches** (often heavily augmented) at a given step—here batch **780**. It confirms that augmentations look reasonable (geometry, color, mosaic layout) and that labels still align with transformed images.
+
+![Training batch example](student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/train_batch780.jpg)  
+*[View file on GitHub](https://github.com/ErandKurtaliqi/ML_2025-26_GR_14/blob/main/student-answer-yolo/student-answer-yolo/runs/detect/runs/student_answer_v2/train_batch780.jpg)*
+
 ## Project Structure
 
 ```
@@ -1161,8 +1236,6 @@ Accuracy: Minimizes human error by automating the transcription of handwriting.
 Scalability: Designed to handle thousands of exam entries efficiently, making it an ideal solution for large-scale academic institutions.
 
 ---
-Foton qetu
---
 
 ## Full Pipeline
 
