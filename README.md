@@ -1124,6 +1124,44 @@ Answer_20: "c"
 
 --<img width="883" height="543" alt="Screenshot 2026-04-19 095416" src="https://github.com/user-attachments/assets/94dea6ef-70f6-41a1-80a2-35a3ee6d86c6" />
 
+---
+
+## Optimization: Automated Code Extraction & OCR
+To maximize processing speed and ensure high-level accuracy, we have implemented an optimized workflow for identifying the student’s 5-digit identification code. Instead of processing the entire document, the system focuses directly on the handwritten input.
+
+### Automated Cropping Process
+The system utilizes a specialized preprocessing script that automatically crops the specific region where the student writes their code.
+
+<img width="1251" height="539" alt="IMG-20260329-WA0008" src="https://github.com/user-attachments/assets/5e618467-1e89-46b2-a7a5-721bb8880e0f" />
+
+### Targeted Focus: By isolating this area from the rest of the document, we eliminate background noise and potential interference from other text or table lines.
+
+### Performance Boost: This automated cropping significantly reduces the computational load on the model, allowing for near-instantaneous processing of large batches of exam papers.
+
+### Advanced OCR Integration
+Once the region is isolated, the system applies Optical Character Recognition (OCR) to bridge the gap between handwritten ink and digital data.
+
+<img width="1239" height="532" alt="IMG-20260329-WA0009" src="https://github.com/user-attachments/assets/2222eb7b-5935-4d9a-ac53-acf79da2cb4e" />
+
+### Format Conversion: The OCR engine analyzes the handwritten strokes within the cropped image and converts them directly into a clean digital string.
+
+<img width="745" height="383" alt="IMG-20260329-WA0006" src="https://github.com/user-attachments/assets/6dfb96e4-c052-4a1d-8181-5c79532c489d" />
+
+<img width="811" height="379" alt="IMG-20260329-WA0004" src="https://github.com/user-attachments/assets/678cf5fb-6c18-4c81-b961-d73968c77964" />
+
+<img width="1122" height="524" alt="IMG-20260329-WA0003" src="https://github.com/user-attachments/assets/52d038ba-5ba0-408d-a118-fa12364154d6" />
+
+### Data Integrity: This method ensures that the unique 5-digit code (e.g., 12780) is captured exactly as written, facilitating a seamless transition from a physical paper to a structured database entry (JSON/CSV).
+
+### Key Benefits
+Speed: Drastically reduces the time required for student identification.
+
+Accuracy: Minimizes human error by automating the transcription of handwriting.
+
+Scalability: Designed to handle thousands of exam entries efficiently, making it an ideal solution for large-scale academic institutions.
+
+---
+
 ## Full Pipeline
 
 1. Capture test images (scan / photo)  
