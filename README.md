@@ -795,8 +795,113 @@ This project integrates multiple technologies across different layers:
 ### Core Domains
 - Machine Learning  
 - Computer Vision  
-- Image Processing  
+- Image Processing
 
+---
+
+  - të **normalizuara (0–1)**
+  - në raport me dimensionet e imazhit
+
+---
+
+# Training Process (YOLO)
+
+## Image Description
+
+This image represents a sample from the dataset used to train the **YOLO model** for detecting student answers in multiple-choice tests.
+
+The test originates from the **Faculty of Electrical and Computer Engineering** and is used as an entrance exam at the **Bachelor level**.
+
+The image contains:
+
+- A **grid of answer options (A, B, C, D)** for each question  
+- Approximately **20 multiple-choice questions**  
+- Some boxes are **marked by the student (with X)**  
+---
+
+## Labeling Process (LabelImg)
+
+The dataset was created using the tool:
+
+**LabelImg**
+
+Each answer option (box) is manually annotated using **bounding boxes**.
+
+### Classes Used
+
+- **`marked_box`** → box selected by the student  
+- **`empty_box`** → unselected (empty) box  
+
+### Methodology
+
+- For every answer option (A, B, C, D) in each question:
+  - a **bounding box** is created
+- Each bounding box is classified as:
+  - marked  
+  - empty  
+
+In the image:
+
+- Green rectangles represent labeled bounding boxes  
+- The right-side panel shows all labels (`marked_box`, `empty_box`)
+
+---
+
+## Annotation Format (YOLO Format)
+
+Each image has a corresponding `.txt` file in YOLO format:
+
+```
+<class_id> <x_center> <y_center> <width> <height>
+```
+<img width="1600" height="861" alt="IMG-20260322-WA0000" src="https://github.com/user-attachments/assets/2241dc25-3b6d-4f28-8752-798777158461" />
+
+### Explanation:
+
+- **class_id = 0** → `empty_box`  
+- **class_id = 1** → `marked_box`  
+
+- Coordinates are:
+  - **normalized (0–1)**
+  - relative to image dimensions
+
+---
+
+## Training Objective
+
+The YOLO model is trained to:
+
+- Detect every answer box in the test  
+- Classify whether it is:
+  - marked
+  - or empty  
+- Enable **automatic answer evaluation**  
+- Automate the test correction process  
+
+---
+
+## Role in the Project
+
+This dataset is part of the project:
+
+> **Automated Test Evaluation using Computer Vision (YOLO)**
+
+The goal is to:
+
+- Eliminate manual grading  
+- Improve evaluation accuracy  
+- Automatically process student test sheets at **FECE (Bachelor level)**  
+
+---
+
+## Full Pipeline
+
+1. Capture test images (scan / photo)  
+2. Manual labeling using **LabelImg**  
+3. Dataset organization (`train`, `val`)  
+4. YOLO model training  
+5. Inference (detection & classification)  
+6. Automatic result calculation  
 ---
 
 ## Advantages of the Proposed System
