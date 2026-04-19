@@ -1,5 +1,3 @@
-<div align="center">
-
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/University_of_Prishtina_logo.svg/1200px-University_of_Prishtina_logo.svg.png" width="150" alt="University Logo" />
 
 # University of Prishtina
@@ -795,8 +793,385 @@ This project integrates multiple technologies across different layers:
 ### Core Domains
 - Machine Learning  
 - Computer Vision  
-- Image Processing  
+- Image Processing
 
+---
+
+  - të **normalizuara (0–1)**
+  - në raport me dimensionet e imazhit
+
+---
+
+# Training Process (YOLO)
+
+## Image Description
+
+This image represents a sample from the dataset used to train the **YOLO model** for detecting student answers in multiple-choice tests.
+
+The test originates from the **Faculty of Electrical and Computer Engineering** and is used as an entrance exam at the **Bachelor level**.
+
+The image contains:
+
+- A **grid of answer options (A, B, C, D)** for each question  
+- Approximately **20 multiple-choice questions**  
+- Some boxes are **marked by the student (with X)**  
+---
+
+## Labeling Process (LabelImg)
+
+The dataset was created using the tool:
+
+**LabelImg**
+
+Each answer option (box) is manually annotated using **bounding boxes**.
+
+### Classes Used
+
+- **`marked_box`** → box selected by the student  
+- **`empty_box`** → unselected (empty) box  
+
+### Methodology
+
+- For every answer option (A, B, C, D) in each question:
+  - a **bounding box** is created
+- Each bounding box is classified as:
+  - marked  
+  - empty  
+
+In the image:
+
+- Green rectangles represent labeled bounding boxes  
+- The right-side panel shows all labels (`marked_box`, `empty_box`)
+
+---
+
+## Annotation Format (YOLO Format)
+
+Each image has a corresponding `.txt` file in YOLO format:
+
+```
+<class_id> <x_center> <y_center> <width> <height>
+```
+<img width="1600" height="861" alt="IMG-20260322-WA0000" src="https://github.com/user-attachments/assets/2241dc25-3b6d-4f28-8752-798777158461" />
+
+### Explanation:
+
+- **class_id = 0** → `empty_box`  
+- **class_id = 1** → `marked_box`  
+
+- Coordinates are:
+  - **normalized (0–1)**
+  - relative to image dimensions
+
+---
+
+## Training Objective
+
+The YOLO model is trained to:
+
+- Detect every answer box in the test  
+- Classify whether it is:
+  - marked
+  - or empty  
+- Enable **automatic answer evaluation**  
+- Automate the test correction process  
+
+---
+
+## Model Prediction (Inference)
+
+This image shows the output of the trained **YOLO model** during the **prediction (inference) phase**.
+
+After training, the model is used to analyze unseen test images and automatically detect and classify answer boxes.
+
+---
+
+## What is shown in the image
+
+- A real student test from **FIEK (Bachelor level)**
+- The trained YOLO model applied on the image
+- Blue bounding boxes around detected answer options
+- Each box is labeled with:
+  - predicted class (`empty_box` or `marked_box`)
+  - confidence score (e.g., 0.75, 0.82)
+
+---
+
+## Model Behavior
+
+During inference, the YOLO model:
+
+- Detects all answer boxes in the test
+- Classifies each box as:
+  - **`empty_box`** → not selected
+  - **`marked_box`** → selected by the student
+- Assigns a **confidence score** to each prediction
+
+Example label:
+```
+empty_box 0.81
+```
+
+This means:
+- the model predicts the box is empty
+- with 81% confidence
+
+---
+
+## Prediction Script
+
+The prediction is executed using a custom script:
+
+```
+python scripts/predict.py
+```
+
+This script:
+
+- Loads the trained YOLO model
+- Runs inference on test images
+- Draws bounding boxes and labels
+- Saves the output in:
+
+```
+runs/detect/predict/
+```
+
+---
+
+## Output Interpretation
+
+- Blue rectangles → detected answer boxes  
+- Labels → predicted class + confidence  
+- High confidence → more reliable prediction  
+
+This output is used for:
+
+- Identifying selected answers  
+- Calculating test scores automatically  
+- Fully automating the evaluation process  
+
+---
+<img width="1294" height="805" alt="IMG-20260322-WA0001" src="https://github.com/user-attachments/assets/49ac038a-75d6-4785-8b71-294efcb5a2f8" />
+
+## Importance in the Project
+
+This step demonstrates the **real-world application** of the trained model:
+
+> Automatically reading and evaluating student test sheets without human intervention.
+
+It validates that the model can:
+
+- Generalize to new test images  
+- Detect and classify answers correctly  
+- Support automated grading systems  
+
+---
+
+---
+
+## Role in the Project
+
+This dataset is part of the project:
+
+> **Automated Test Evaluation using Computer Vision (YOLO)**
+
+The goal is to:
+
+- Eliminate manual grading  
+- Improve evaluation accuracy  
+- Automatically process student test sheets at **FECE (Bachelor level)**  
+
+---
+
+## Precision and Detection Accuracy
+
+This image highlights a detailed view of the labeling process and is particularly useful for understanding the **precision requirements** of the YOLO model.
+
+<img width="1500" height="906" alt="IMG-20260322-WA0005" src="https://github.com/user-attachments/assets/328f3a84-906a-445e-b962-4c6e44176845" />
+
+---
+
+## Why Precision Matters
+
+In this project, precision is critical because:
+
+- Each question has **multiple answer options (A, B, C, D)**
+- Only **one box should be marked per question**
+- Even a small detection error can lead to:
+  - incorrect answer interpretation
+  - wrong final score
+
+---
+
+## Definition of Precision
+
+**Precision** measures how many of the detected boxes are actually correct.
+
+```
+Precision = True Positives / (True Positives + False Positives)
+```
+
+- **True Positive (TP)** → correctly detected marked box  
+- **False Positive (FP)** → model detects a box as marked when it is actually empty  
+
+---
+
+## Challenges in This Dataset
+
+From the image, we can observe several challenges:
+
+### 1. Close Proximity of Boxes
+- Answer boxes are very close to each other  
+- The model must avoid detecting multiple boxes as one  
+
+### 2. Similar Visual Patterns
+- Empty and marked boxes have similar structure  
+- The only difference is the presence of an **X mark**
+
+### 3. Handwritten Variations
+- The "X" marks are handwritten  
+- They vary in:
+  - thickness
+  - angle
+  - position  
+
+This increases the difficulty of classification.
+
+---
+
+## Potential Errors
+
+Without high precision, the model may:
+
+- Detect an **empty box as marked** (False Positive)
+- Detect **multiple answers for one question**
+- Miss a marked box entirely (False Negative)
+
+---
+
+## Improving Precision
+
+To achieve high precision, the following strategies were applied:
+
+- **Accurate bounding box labeling** using LabelImg  
+- Clean dataset with correct annotations  
+- Data augmentation (rotation, brightness, noise)  
+- Fine-tuning YOLO model parameters  
+- Validation on unseen data  
+
+---
+
+## Expected Outcome
+
+A well-trained model should:
+
+- Detect only the **correct answer boxes**
+- Avoid false detections  
+- Maintain high confidence scores for correct predictions  
+
+> High precision ensures that the automated grading system is reliable and trustworthy.
+
+---
+
+## Identification Code
+
+### Identification Code (ID): Each digit of the 5-digit code (e.g., 00216) is labeled individually as a specific class (digit_0, digit_1, etc.). This allows the model to recognize and read each student's unique ID.
+
+### Table Structure: Localizing the answer table to enable the accurate mapping of rows (1-20) to columns (a, b, c, d).
+
+## Main Classes
+
+digit_0 - digit_9: Individual digits of the 5-digit identification code.
+
+<img width="1600" height="863" alt="IMG-20260328-WA0000" src="https://github.com/user-attachments/assets/1054b964-022e-41d9-b675-127c65b7697d" />
+
+---
+
+## Model Training Output Description
+For this second phase of the dataset, the trained model generates the following results based on images like this one, applying advanced localization and recognition techniques.
+
+### Code (ID) Detection and Recognition
+This model goes beyond just detecting individual digits; it identifies the entire code region and reads it as a single entity:
+
+### Main Bounding Box: Identifies the large blue frame that encompasses the area where the full code is expected to be written.
+
+### Digit Segmentation: Segments and detects each digit individually using smaller yellow boxes.
+
+### Text Recognition (OCR): Combines the detected digits into a single 5-digit code. For example, in this image, the model accurately reads the code 12780 and outputs this information (e.g., in a JSON or CSV file) as a single string value instead of five separate digits.
+
+### Full Answer Table Detection
+Unlike detecting individual boxes, this model localizes the entire structure of the table:
+
+### Table Bounding Box: Defines a large green frame that encompasses the entire answer table.
+
+### Matrix Mapping: This allows for precise software-level mapping of every box (e.g., "Row 1, Column c") without needing to treat every single box as a separate class. This significantly increases efficiency and accuracy for mass data extraction.
+
+### Final Structured Output
+The final output from the model for such an image can be a JSON file structured as follows:
+
+Code: "12780"
+
+Response_Matrix_Location: [xmin, ymin, xmax, ymax]
+
+Answer_1: "c"
+
+Answer_2: "c"
+
+...
+
+Answer_20: "c"
+
+--<img width="883" height="543" alt="Screenshot 2026-04-19 095416" src="https://github.com/user-attachments/assets/94dea6ef-70f6-41a1-80a2-35a3ee6d86c6" />
+
+---
+
+## Optimization: Automated Code Extraction & OCR
+To maximize processing speed and ensure high-level accuracy, we have implemented an optimized workflow for identifying the student’s 5-digit identification code. Instead of processing the entire document, the system focuses directly on the handwritten input.
+
+### Automated Cropping Process
+The system utilizes a specialized preprocessing script that automatically crops the specific region where the student writes their code.
+
+<img width="1251" height="539" alt="IMG-20260329-WA0008" src="https://github.com/user-attachments/assets/5e618467-1e89-46b2-a7a5-721bb8880e0f" />
+
+### Targeted Focus: By isolating this area from the rest of the document, we eliminate background noise and potential interference from other text or table lines.
+
+### Performance Boost: This automated cropping significantly reduces the computational load on the model, allowing for near-instantaneous processing of large batches of exam papers.
+
+### Advanced OCR Integration
+Once the region is isolated, the system applies Optical Character Recognition (OCR) to bridge the gap between handwritten ink and digital data.
+
+<img width="1239" height="532" alt="IMG-20260329-WA0009" src="https://github.com/user-attachments/assets/2222eb7b-5935-4d9a-ac53-acf79da2cb4e" />
+
+### Format Conversion: The OCR engine analyzes the handwritten strokes within the cropped image and converts them directly into a clean digital string.
+
+<img width="745" height="383" alt="IMG-20260329-WA0006" src="https://github.com/user-attachments/assets/6dfb96e4-c052-4a1d-8181-5c79532c489d" />
+
+<img width="811" height="379" alt="IMG-20260329-WA0004" src="https://github.com/user-attachments/assets/678cf5fb-6c18-4c81-b961-d73968c77964" />
+
+<img width="1122" height="524" alt="IMG-20260329-WA0003" src="https://github.com/user-attachments/assets/52d038ba-5ba0-408d-a118-fa12364154d6" />
+
+### Data Integrity: This method ensures that the unique 5-digit code (e.g., 12780) is captured exactly as written, facilitating a seamless transition from a physical paper to a structured database entry (JSON/CSV).
+
+### Key Benefits
+Speed: Drastically reduces the time required for student identification.
+
+Accuracy: Minimizes human error by automating the transcription of handwriting.
+
+Scalability: Designed to handle thousands of exam entries efficiently, making it an ideal solution for large-scale academic institutions.
+
+---
+Foton qetu
+--
+
+## Full Pipeline
+
+1. Capture test images (scan / photo)  
+2. Manual labeling using **LabelImg**  
+3. Dataset organization (`train`, `val`)  
+4. YOLO model training  
+5. Inference (detection & classification)  
+6. Automatic result calculation  
 ---
 
 ## Advantages of the Proposed System
