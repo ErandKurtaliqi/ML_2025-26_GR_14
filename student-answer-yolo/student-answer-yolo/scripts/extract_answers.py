@@ -4,7 +4,7 @@ from ultralytics import YOLO
 
 MODEL_PATH = "runs/detect/runs/student_answer_v2/weights/best.pt"
 
-IMAGE_PATH = "dataset/images/test/IMG_8177.jpg"
+IMAGE_PATH = "dataset/images/train/IMG_8182.jpg"
 model = YOLO(MODEL_PATH)
 
 def order_points(pts):
@@ -112,7 +112,7 @@ def get_row_specific_answers(img_path):
             if not detected_y_lines or abs(y - detected_y_lines[-1]) > 10:
                 detected_y_lines.append(y)
 
-    results = model.predict(source=img_path, conf=0.2, verbose=False)
+    results = model.predict(source=img_path, conf=0.7, verbose=False)
     boxes = results[0].boxes.xyxy.cpu().numpy()
 
     print("Detected Y Lines (Row Boundaries):", boxes)
