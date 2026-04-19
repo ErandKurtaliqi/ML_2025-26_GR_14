@@ -1,5 +1,3 @@
-<img width="1500" height="906" alt="IMG-20260322-WA0005" src="https://github.com/user-attachments/assets/c220d37c-2bbe-477e-901b-db6c6efac066" /><div align="center">
-
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/University_of_Prishtina_logo.svg/1200px-University_of_Prishtina_logo.svg.png" width="150" alt="University Logo" />
 
 # University of Prishtina
@@ -1075,6 +1073,56 @@ A well-trained model should:
 > High precision ensures that the automated grading system is reliable and trustworthy.
 
 ---
+
+## Identification Code
+
+### Identification Code (ID): Each digit of the 5-digit code (e.g., 00216) is labeled individually as a specific class (digit_0, digit_1, etc.). This allows the model to recognize and read each student's unique ID.
+
+### Table Structure: Localizing the answer table to enable the accurate mapping of rows (1-20) to columns (a, b, c, d).
+
+## Main Classes
+
+digit_0 - digit_9: Individual digits of the 5-digit identification code.
+
+<img width="1600" height="863" alt="IMG-20260328-WA0000" src="https://github.com/user-attachments/assets/1054b964-022e-41d9-b675-127c65b7697d" />
+
+---
+
+## Model Training Output Description
+For this second phase of the dataset, the trained model generates the following results based on images like this one, applying advanced localization and recognition techniques.
+
+### Code (ID) Detection and Recognition
+This model goes beyond just detecting individual digits; it identifies the entire code region and reads it as a single entity:
+
+### Main Bounding Box: Identifies the large blue frame that encompasses the area where the full code is expected to be written.
+
+### Digit Segmentation: Segments and detects each digit individually using smaller yellow boxes.
+
+### Text Recognition (OCR): Combines the detected digits into a single 5-digit code. For example, in this image, the model accurately reads the code 12780 and outputs this information (e.g., in a JSON or CSV file) as a single string value instead of five separate digits.
+
+### Full Answer Table Detection
+Unlike detecting individual boxes, this model localizes the entire structure of the table:
+
+### Table Bounding Box: Defines a large green frame that encompasses the entire answer table.
+
+### Matrix Mapping: This allows for precise software-level mapping of every box (e.g., "Row 1, Column c") without needing to treat every single box as a separate class. This significantly increases efficiency and accuracy for mass data extraction.
+
+### Final Structured Output
+The final output from the model for such an image can be a JSON file structured as follows:
+
+Code: "12780"
+
+Response_Matrix_Location: [xmin, ymin, xmax, ymax]
+
+Answer_1: "c"
+
+Answer_2: "c"
+
+...
+
+Answer_20: "c"
+
+--<img width="883" height="543" alt="Screenshot 2026-04-19 095416" src="https://github.com/user-attachments/assets/94dea6ef-70f6-41a1-80a2-35a3ee6d86c6" />
 
 ## Full Pipeline
 
