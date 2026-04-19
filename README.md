@@ -1,4 +1,7 @@
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/University_of_Prishtina_logo.svg/1200px-University_of_Prishtina_logo.svg.png" width="150" alt="University Logo" />
+<div align="center">
+
+<!-- Logo: direct SVG from Commons. If it does not load (firewall, rate limits), download the file from the Commons link below, save as docs/images/university-of-prishtina-logo.png in this repo, and point src to that path. -->
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e1/University_of_Prishtina_logo.svg" width="150" height="150" alt="University of Prishtina logo" />
 
 # University of Prishtina
 
@@ -8,11 +11,27 @@
 **Course:** Machine Learning  
 **Group:** 14  
 
-# Project Topic
+### Project topic
 
-## Training and Application of the YOLO Model for Automatic Detection and Evaluation of Entrance Exams at FIEK
+**Training and Application of the YOLO Model for Automatic Detection and Evaluation of Entrance Exams at FIEK**
+
+[Official logo file (Wikimedia Commons)](https://commons.wikimedia.org/wiki/File:University_of_Prishtina_logo.svg)
 
 </div>
+
+---
+
+## Table of contents
+
+- [Disclaimer](#disclaimer)
+- [Project overview](#project-overview)
+- [Motivation](#motivation-of-the-project)
+- [Phase 1](#phase-1) — dataset, pipeline, evaluation concept
+- [Phase 2](#phase-2) — architecture, exam grading app, YOLO training & integration
+- [Training process (YOLO)](#training-process-yolo) — labeling, metrics, OCR workflow
+- [Future improvements](#future-improvements)
+- [Conclusion](#conclusion)
+- [Credits](#credits)
 
 ---
 
@@ -62,7 +81,7 @@ The goal of this project is to develop an **AI-based automated grading system** 
 
 ---
 
-The project is organized into tree main phases:
+The project is organized into three main phases:
 
 - **Phase 1 – Current System Implementation**
 - **Phase 2 – YOLO Model Training and Improvement**
@@ -284,25 +303,12 @@ The proposed system provides several advantages:
 
 This project uses the following technologies:
 
-- Python
+- Python, FastAPI (`yolo-api/`)
+- ASP.NET Core (`ML ASP.net service/ExamNumberReader/`)
+- Angular (`frontend/`)
 - YOLO (You Only Look Once)
-- Computer Vision
-- Image Processing
-- Deep Learning
-- Machine Learning
-
----
-
-# Future Improvements
-
-Future improvements may include:
-
-- Increasing the dataset size
-- Improving model accuracy
-- Integrating the system with a web platform
-- Supporting different exam formats
-- Real-time exam sheet analysis
-- Integration with university exam systems
+- OCR (Tesseract / ONNX for student ID)
+- Computer Vision, Image Processing, Deep Learning, Machine Learning
 
 ---
 
@@ -608,74 +614,6 @@ Both APIs are configured to allow all origins. If you still see CORS errors, che
 ## License
 
 This project is for educational purposes.
-# ML_web
-
----
-
-## Backend – ASP.NET Core Service
-
-The ASP.NET Core backend is responsible for the main business logic of the system.
-
-Its responsibilities include:
-
-- Receiving exam sheet images
-- Managing grading logic
-- Calling OCR and detection services
-- Comparing detected answers with the answer key
-- Exporting results
-- Exposing API endpoints for the frontend
-
-The backend includes:
-
-- **Controllers** for API endpoints
-- **Models** for data structures
-- **Services** for grading, OCR, export, and answer key processing
-
----
-
-## Python Detection API
-
-A dedicated Python API is included in the system architecture to support machine learning and detection logic.
-
-This module contains:
-
-- Configuration files
-- Detection service logic
-- Model-related code
-- Python entry points for execution
-
-The Python service is designed to be modular, so it can later be extended with a trained YOLO model in Phase 2.
-
----
-
-## Frontend – Angular Application
-
-The frontend provides the user interface of the system.
-
-Its main responsibilities are:
-
-- Uploading exam sheet images
-- Sending requests to the backend
-- Displaying extracted results
-- Presenting grading information in a user-friendly format
-
-This layer ensures easier interaction with the automated grading system.
-
----
-
-## Current Workflow
-
-The current system workflow is as follows:
-
-1. The user uploads an exam sheet image
-2. The frontend sends the image to the backend
-3. The backend processes the request
-4. OCR / detection logic is executed
-5. The candidate code is extracted
-6. Answers are detected and interpreted
-7. The answers are compared with the correct answer key
-8. The final score is calculated
-9. The result is returned to the frontend
 
 ---
 
@@ -722,56 +660,9 @@ These outputs are then used for further processing, including **answer recogniti
 
 ---
 
-## Main Activities of Phase 2
+## Main activities of Phase 2
 
-The second phase consists of multiple structured steps:
-
-### 1. Dataset Preparation
-- Collecting real exam sheets
-- Ensuring diversity in format and marking styles
-- Organizing images into structured datasets
-
-### 2. Image Verification
-- Checking image quality
-- Removing corrupted or unusable samples
-- Standardizing image formats and resolutions
-
-### 3. Data Annotation
-- Labeling all relevant regions using bounding boxes
-- Ensuring annotation consistency
-- Exporting labels in YOLO format
-
-### 4. Dataset Splitting
-- Training set (≈70–80%)
-- Validation set (≈10–20%)
-- Test set (≈10%)
-
-### 5. YOLO Configuration
-- Defining class labels
-- Configuring model architecture
-- Setting training parameters (epochs, batch size, learning rate)
-
-### 6. Model Training
-- Training the YOLO model on annotated data
-- Monitoring loss and accuracy metrics
-- Adjusting hyperparameters when necessary
-
-### 7. Model Validation
-- Evaluating model on validation dataset
-- Detecting overfitting or underfitting
-- Fine-tuning model performance
-
-### 8. Performance Evaluation
-- Measuring:
-  - Precision  
-  - Recall  
-  - mAP (mean Average Precision)  
-- Analyzing detection errors
-
-### 9. System Integration
-- Integrating the trained model into backend (Python / API)
-- Connecting results with ASP.NET Core logic
-- Preparing outputs for Angular frontend
+Dataset size, diversity, capture conditions, annotation policy (YOLO format), and quality checks are documented **once** in [Phase 1](#phase-1) (*Dataset Creation* through *Data Annotation Process*). Training runs, validation plots, and exported weights appear under [Model training](#model-training) and [Training process (YOLO)](#training-process-yolo). The live grading stack (`yolo-api/`, .NET, Angular) is described in [Exam Grading System](#exam-grading-system).
 
 ---
 
@@ -788,92 +679,6 @@ This will significantly improve:
 - Accuracy  
 - Reliability  
 - Efficiency  
-
-> A more detailed technical breakdown will be included in future README updates.
-
----
-
-## Dataset
-
-A custom dataset was created specifically for this project to simulate real exam scenarios.
-
-### Dataset Characteristics
-
-- ~100 exam sheet samples  
-- Multiple marking styles and conditions  
-
-### Included Scenarios
-
-- Fully completed sheets  
-- Partially completed sheets  
-- Blank answers  
-- Multiple marked answers  
-- Light and strong markings  
-- Crossed-out answers  
-- Changed responses  
-- Slight misalignment of markings  
-
-### Image Sources
-
-Images were collected using:
-
-- Document scanners  
-- Smartphone cameras  
-- Standard digital cameras  
-
-This diversity ensures the model learns to handle **real-world noise and variability**.
-
----
-
-## Data Annotation
-
-Annotation is a critical part of this phase.
-
-### Annotated Elements
-
-- Candidate code area  
-- Answer bubble locations  
-- Marked answers  
-- Question regions  
-
-### Annotation Format
-
-All annotations follow the **YOLO format**, where each object is defined by:
-<class_id> <x_center> <y_center> <width> <height>
-
-
-### Challenges in Annotation
-
-- Ensuring consistency across samples  
-- Handling ambiguous markings  
-- Labeling overlapping regions  
-
----
-
-## Technologies Used
-
-This project integrates multiple technologies across different layers:
-
-### Backend
-- ASP.NET Core (API & business logic)
-
-### Frontend
-- Angular (UI and visualization)
-
-### AI / Processing
-- Python  
-- YOLO  
-- OCR (for candidate code extraction)  
-
-### Core Domains
-- Machine Learning  
-- Computer Vision  
-- Image Processing
-
----
-
-  - të **normalizuara (0–1)**
-  - në raport me dimensionet e imazhit
 
 ---
 
@@ -1247,21 +1052,6 @@ Scalability: Designed to handle thousands of exam entries efficiently, making it
 6. Automatic result calculation  
 ---
 
-## Advantages of the Proposed System
-
-The system provides several key benefits:
-
-- Faster exam evaluation  
-- Reduced manual workload  
-- Increased grading consistency  
-- High scalability  
-- Reduced human error  
-- Automated result generation  
-
-Additionally, the system enables **standardized evaluation**, which is difficult to achieve manually.
-
----
-
 ## Challenges Faced
 
 During this phase, several challenges were identified:
@@ -1280,7 +1070,7 @@ These challenges are addressed through:
 
 ---
 
-## Future Improvements
+# Future improvements
 
 Planned future enhancements include:
 
@@ -1311,16 +1101,20 @@ By leveraging **YOLO object detection and machine learning**, it is possible to 
 Such systems can significantly improve the **efficiency, reliability, and scalability of exam evaluation processes**.
 
 ---
-**Dataset Source:** Custom Dataset Created for This Project  
+
+# Credits
+
+**Dataset source:** Custom dataset created for this project.
 
 ### Professors
+
 Prof. Dr. Lele Ahmeti  
 Prof. Dr. Mërgim Hoti  
 
 ### Students
+
 Altin Pajaziti  
 Ardi Bërdyna  
 Erand Kurtaliqi  
-
 
 **Date:** February 2026
