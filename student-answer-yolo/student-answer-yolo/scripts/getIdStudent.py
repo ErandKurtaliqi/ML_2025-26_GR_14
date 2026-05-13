@@ -36,9 +36,17 @@ import numpy as np
 
 from handwriting_paths import HANDWRITING_MODEL_PATH
 
-DEFAULT_IMAGE = os.path.normpath(
-    os.path.join(SCRIPT_DIR, "..", "dataset", "images", "train", "IMG_8163.jpg")
-)
+def _pick_default_image():
+    train_dir = os.path.normpath(
+        os.path.join(SCRIPT_DIR, "..", "dataset", "images", "train")
+    )
+    candidates = sorted(glob.glob(os.path.join(train_dir, "*.jpg")))
+    if candidates:
+        return candidates[0]
+    return os.path.join(train_dir, "IMG_8163.jpg")
+
+
+DEFAULT_IMAGE = _pick_default_image()
 _env_model = os.environ.get("HANDWRITING_MODEL", "").strip()
 DEFAULT_KERAS_MODEL = (
     os.path.normpath(os.path.expandvars(_env_model))
@@ -423,30 +431,36 @@ ALL_MASK_STRATEGIES = [
 # ═══════════════════════════════════════════════════════════════════════════
 
 def _get_roi_crops(img):
-    """Return multiple ROI crops covering where the student ID might be."""
+    """Return multiple ROI crops covering where the student ID might be.
+
+    The ID is handwritten on the left margin, roughly mid-page vertically.
+    Crops MUST stay below the header (title text "TESTI / PËR PROVIM …"
+    is around y < 25%) and left of the answer table (which starts around
+    x > 42%), otherwise dark-text masks pick up titles as digits.
+    """
     h, w = img.shape[:2]
     crops = []
-    
-    # Crop 1: Primary — left side, middle vertical
-    y1, y2 = int(h * 0.28), int(h * 0.60)
-    x1, x2 = int(w * 0.02), int(w * 0.42)
-    crops.append(("primary", img[y1:y2, x1:x2]))
-    
-    # Crop 2: Wider vertical range
-    y1, y2 = int(h * 0.25), int(h * 0.65)
-    x1, x2 = int(w * 0.01), int(w * 0.45)
-    crops.append(("wide", img[y1:y2, x1:x2]))
-    
-    # Crop 3: Tighter focus — common position
+
+    # Crop 1: Primary — covers the full digit zone observed across samples
     y1, y2 = int(h * 0.35), int(h * 0.55)
-    x1, x2 = int(w * 0.03), int(w * 0.35)
-    crops.append(("tight", img[y1:y2, x1:x2]))
-    
-    # Crop 4: Lower third of left side (sometimes ID is lower)
+    x1, x2 = int(w * 0.08), int(w * 0.44)
+    crops.append(("primary", img[y1:y2, x1:x2]))
+
+    # Crop 2: Wider vertical range for IDs written slightly high or low
     y1, y2 = int(h * 0.30), int(h * 0.58)
-    x1, x2 = int(w * 0.02), int(w * 0.40)
-    crops.append(("lower", img[y1:y2, x1:x2]))
-    
+    x1, x2 = int(w * 0.06), int(w * 0.45)
+    crops.append(("wide", img[y1:y2, x1:x2]))
+
+    # Crop 3: Tighter horizontal range — useful when the ID is left-aligned
+    y1, y2 = int(h * 0.37), int(h * 0.53)
+    x1, x2 = int(w * 0.06), int(w * 0.40)
+    crops.append(("tight", img[y1:y2, x1:x2]))
+
+    # Crop 4: Shifted right — for IDs written closer to the table
+    y1, y2 = int(h * 0.36), int(h * 0.54)
+    x1, x2 = int(w * 0.12), int(w * 0.46)
+    crops.append(("shifted", img[y1:y2, x1:x2]))
+
     return crops
 
 
