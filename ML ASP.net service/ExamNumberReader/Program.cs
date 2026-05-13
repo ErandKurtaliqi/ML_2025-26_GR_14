@@ -11,7 +11,7 @@ builder.Services.AddSwaggerGen(c =>
     {
         Title = "Exam Grading System API",
         Version = "v1",
-        Description = "Automatic exam grading system using YOLO for answer detection and OCR for student ID extraction."
+        Description = "Automatic exam grading system using YOLO for answer detection and Keras handwriting recognition for student ID extraction."
     });
 });
 
@@ -27,12 +27,17 @@ builder.Services.AddCors(options =>
 });
 
 // Register services
-builder.Services.AddSingleton<IOcrService, TesseractOcrService>();
 builder.Services.AddSingleton<IAnswerKeyService, AnswerKeyService>();
 builder.Services.AddSingleton<IExportService, ExportService>();
 
 // HttpClient for YOLO API
 builder.Services.AddHttpClient<IYoloService, YoloService>(client =>
+{
+    client.Timeout = TimeSpan.FromMinutes(2);
+});
+
+// HttpClient for injected student ID model API
+builder.Services.AddHttpClient<IOcrService, StudentIdService>(client =>
 {
     client.Timeout = TimeSpan.FromMinutes(2);
 });

@@ -65,10 +65,14 @@ export interface DetectedAnswer {
 export interface OcrResponse {
   success: boolean;
   extractedNumber?: string;
+  extracted_number?: string;
   rawOcrText?: string;
+  raw_ocr_text?: string;
   confidence: number;
   errorMessage?: string;
+  error_message?: string;
   fileName?: string;
+  file_name?: string;
 }
 
 export interface QuestionComparison {

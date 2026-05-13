@@ -209,6 +209,24 @@ import {
               <span>Using: <strong>{{ currentAnswerKey.name }}</strong> ({{ getAnswerCount(currentAnswerKey) }} questions)</span>
             </div>
 
+            <div class="threshold-card">
+              <div class="threshold-copy">
+                <strong>Passing Threshold</strong>
+                <span>Students with a score greater than this value pass.</span>
+              </div>
+              <label class="threshold-control">
+                <input
+                  type="number"
+                  min="0"
+                  max="100"
+                  step="1"
+                  [(ngModel)]="passThreshold"
+                  (ngModelChange)="normalizePassThreshold()"
+                  aria-label="Passing threshold percentage">
+                <span>%</span>
+              </label>
+            </div>
+
             <div class="drop-zone large" 
                  [class.dragover]="isDragging"
                  (dragover)="onDragOver($event)"
@@ -303,7 +321,7 @@ import {
                     </button>
                     <button (click)="exportOcrNetCsv(); showExportMenu = false">
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><path d="M22 6l-10 7L2 6"/></svg>
-                      .NET OCR Numbers CSV
+                      Student ID CSV
                     </button>
                     <button (click)="exportComparisonCsv(); showExportMenu = false">
                       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 4h2a2 2 0 012 2v14a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2h2"/><rect x="8" y="2" width="8" height="4" rx="1"/></svg>
@@ -362,6 +380,7 @@ import {
                     <th class="col-sticky">Student ID</th>
                     <th *ngFor="let q of questionNumbers" class="col-q">Q{{ q }}</th>
                     <th class="col-score">Score</th>
+                    <th class="col-status">Status</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -385,6 +404,11 @@ import {
                         <span class="score-pct">{{ result.scorePercentage | number:'1.0-0' }}%</span>
                       </div>
                     </td>
+                    <td class="col-status">
+                      <span class="pass-tag" [class.pass]="hasPassed(result)" [class.fail]="!hasPassed(result)">
+                        {{ hasPassed(result) ? 'PASS' : 'FAIL' }}
+                      </span>
+                    </td>
                   </tr>
                 </tbody>
               </table>
@@ -400,6 +424,9 @@ import {
                     <span class="detail-file">{{ selectedResult.fileName }}</span>
                   </div>
                 </div>
+                <span class="pass-tag large" [class.pass]="hasPassed(selectedResult)" [class.fail]="!hasPassed(selectedResult)">
+                  {{ hasPassed(selectedResult) ? 'PASS' : 'FAIL' }}
+                </span>
                 <button class="btn-close" (click)="selectedResult = null">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
                 </button>
@@ -437,7 +464,7 @@ import {
                 <div class="api-panel">
                   <div class="api-panel-header ocr">
                     <div class="api-step-badge">2</div>
-                    <h5>OCR Number Extraction</h5>
+                    <h5>Student ID Model</h5>
                     <span class="api-pill" [class.ok]="debugResults[selectedResult.fileName || '']?.ocrResponse?.success"
                           [class.fail]="!debugResults[selectedResult.fileName || '']?.ocrResponse?.success">
                       {{ debugResults[selectedResult.fileName || '']?.ocrResponse?.success ? 'SUCCESS' : 'FAILED' }}
@@ -446,12 +473,15 @@ import {
                   <div class="api-panel-body">
                     <div class="ocr-display">
                       <span class="ocr-label">Extracted Number</span>
-                      <span class="ocr-number">{{ debugResults[selectedResult.fileName || '']?.ocrResponse?.extractedNumber || '—' }}</span>
+                      <span class="ocr-number">{{ getStudentIdFromOcr(debugResults[selectedResult.fileName || '']?.ocrResponse) || '-' }}</span>
                     </div>
                     <div class="api-meta">
                       <span>Confidence: <strong>{{ (debugResults[selectedResult.fileName || '']?.ocrResponse?.confidence || 0) | number:'1.1-1' }}%</strong></span>
-                      <span *ngIf="debugResults[selectedResult.fileName || '']?.ocrResponse?.rawOcrText">
-                        Raw: <strong>{{ debugResults[selectedResult.fileName || '']?.ocrResponse?.rawOcrText }}</strong>
+                      <span *ngIf="getRawOcrText(debugResults[selectedResult.fileName || '']?.ocrResponse)">
+                        Raw: <strong>{{ getRawOcrText(debugResults[selectedResult.fileName || '']?.ocrResponse) }}</strong>
+                      </span>
+                      <span *ngIf="getOcrError(debugResults[selectedResult.fileName || '']?.ocrResponse)">
+                        Error: <strong>{{ getOcrError(debugResults[selectedResult.fileName || '']?.ocrResponse) }}</strong>
                       </span>
                     </div>
                     <details class="json-toggle">
@@ -1425,6 +1455,47 @@ import {
 
     .student-id { font-weight: 600; color: var(--gray-800); }
 
+    .threshold-card {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      padding: 16px 18px;
+      margin-bottom: 20px;
+      border: 1px solid var(--gray-200);
+      border-radius: var(--radius);
+      background: var(--gray-50);
+    }
+
+    .threshold-copy {
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+      strong { color: var(--gray-900); font-size: 0.95rem; }
+      span { color: var(--gray-500); font-size: 0.84rem; }
+    }
+
+    .threshold-control {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 12px;
+      border: 1px solid var(--gray-300);
+      border-radius: var(--radius-sm);
+      background: white;
+      color: var(--gray-600);
+      font-weight: 700;
+      input {
+        width: 70px;
+        border: none;
+        outline: none;
+        font: inherit;
+        color: var(--gray-900);
+        text-align: right;
+        background: transparent;
+      }
+    }
+
     .score-pill {
       display: inline-flex;
       align-items: center;
@@ -1442,6 +1513,23 @@ import {
       font-weight: 500;
       opacity: 0.7;
       font-size: 0.75rem;
+    }
+
+    .col-status { min-width: 90px; }
+
+    .pass-tag {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 58px;
+      padding: 5px 10px;
+      border-radius: 999px;
+      font-weight: 800;
+      font-size: 0.72rem;
+      letter-spacing: 0.04em;
+      &.pass { background: rgba(16,185,129,0.12); color: var(--success-dark); }
+      &.fail { background: rgba(239,68,68,0.1); color: var(--danger-dark); }
+      &.large { min-width: 72px; padding: 7px 14px; font-size: 0.78rem; }
     }
 
     /* ═══════ DETAIL PANEL ═══════ */
@@ -1854,6 +1942,7 @@ export class AppComponent implements OnInit {
   errorMessage = '';
   debugMode = true;
   showExportMenu = false;
+  passThreshold = 40;
 
   currentAnswerKey: AnswerKey | null = null;
   selectedExamFiles: File[] = [];
@@ -2043,6 +2132,7 @@ export class AppComponent implements OnInit {
   startGrading() {
     if (this.selectedExamFiles.length === 0) return;
 
+    this.normalizePassThreshold();
     this.state = 'grading';
     this.errorMessage = '';
     this.debugResults = {};
@@ -2058,10 +2148,11 @@ export class AppComponent implements OnInit {
       this.gradingService.fullPipeline(file).subscribe({
         next: (pipelineResult) => {
           this.debugResults[file.name] = pipelineResult;
+          const studentId = this.getStudentIdFromOcr(pipelineResult.ocrResponse);
           
           const gradingResult: GradingResult = {
             success: pipelineResult.success,
-            studentId: pipelineResult.ocrResponse?.extractedNumber,
+            studentId,
             fileName: file.name,
             detectedAnswers: pipelineResult.yoloResponse?.answers || {},
             questionResults: (pipelineResult.comparisonResponse?.comparisons || []).map(c => ({
@@ -2132,6 +2223,34 @@ export class AppComponent implements OnInit {
     const successful = this.results.filter(r => r.success);
     if (successful.length === 0) return 0;
     return Math.min(...successful.map(r => r.scorePercentage));
+  }
+
+  normalizePassThreshold() {
+    const parsed = Number(this.passThreshold);
+    if (!Number.isFinite(parsed)) {
+      this.passThreshold = 40;
+      return;
+    }
+    this.passThreshold = Math.max(0, Math.min(100, Math.round(parsed)));
+  }
+
+  hasPassed(result: GradingResult): boolean {
+    return result.success && result.scorePercentage > this.passThreshold;
+  }
+
+  getStudentIdFromOcr(ocr?: OcrResponse): string | undefined {
+    if (!ocr) return undefined;
+    return ocr.extractedNumber || ocr.extracted_number || undefined;
+  }
+
+  getOcrError(ocr?: OcrResponse): string {
+    if (!ocr) return '';
+    return ocr.errorMessage || ocr.error_message || '';
+  }
+
+  getRawOcrText(ocr?: OcrResponse): string {
+    if (!ocr) return '';
+    return ocr.rawOcrText || ocr.raw_ocr_text || '';
   }
 
   getStudentAnswer(result: GradingResult, questionNumber: number): string {
@@ -2248,9 +2367,9 @@ export class AppComponent implements OnInit {
     const headers = [
       'File_Name',
       'Extracted_Number',
-      'OCR_Success',
+      'Student_ID_Success',
       'Confidence',
-      'Raw_OCR_Text',
+      'Raw_Text',
       'Error_Message'
     ];
     const rows: string[][] = [headers];
@@ -2260,11 +2379,11 @@ export class AppComponent implements OnInit {
       const ocr = this.debugResults[fn]?.ocrResponse;
       rows.push([
         fn,
-        ocr?.extractedNumber ?? result.studentId ?? '',
+        this.getStudentIdFromOcr(ocr) ?? result.studentId ?? '',
         ocr ? (ocr.success ? 'TRUE' : 'FALSE') : result.studentId ? 'TRUE' : 'FALSE',
         ocr?.confidence !== undefined ? String(ocr.confidence) : '',
-        ocr?.rawOcrText ?? '',
-        ocr?.errorMessage ?? result.errorMessage ?? ''
+        this.getRawOcrText(ocr),
+        this.getOcrError(ocr) || result.errorMessage || ''
       ]);
     }
 
@@ -2276,12 +2395,15 @@ export class AppComponent implements OnInit {
 
     for (const result of this.results) {
       if (rows.length === 0) {
-        rows.push(['ROW_TYPE', 'File_Name', 'Student_ID', ...this.questionNumbers.map((q) => `Q${q}`)]);
+        rows.push(['ROW_TYPE', 'File_Name', 'Student_ID', 'Score_Percentage', 'Passing_Threshold', 'Status', ...this.questionNumbers.map((q) => `Q${q}`)]);
       }
 
-      const keyRow: string[] = ['KEY', result.fileName || '', result.studentId || 'Unknown'];
-      const answersRow: string[] = ['ANSWERS', result.fileName || '', result.studentId || 'Unknown'];
-      const statusRow: string[] = ['RESULT', result.fileName || '', result.studentId || 'Unknown'];
+      const status = this.hasPassed(result) ? 'PASS' : 'FAIL';
+      const score = String(result.scorePercentage);
+      const threshold = String(this.passThreshold);
+      const keyRow: string[] = ['KEY', result.fileName || '', result.studentId || 'Unknown', score, threshold, status];
+      const answersRow: string[] = ['ANSWERS', result.fileName || '', result.studentId || 'Unknown', score, threshold, status];
+      const statusRow: string[] = ['RESULT', result.fileName || '', result.studentId || 'Unknown', score, threshold, status];
 
       for (const q of this.questionNumbers) {
         const qr = result.questionResults.find((qres) => qres.questionNumber === q);
@@ -2314,3 +2436,4 @@ export class AppComponent implements OnInit {
     this.state = 'idle';
   }
 }
+

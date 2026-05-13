@@ -45,9 +45,16 @@ public class GradingService : IGradingService
             await imageStream.CopyToAsync(memoryStream);
             var imageBytes = memoryStream.ToArray();
 
-            // Detect answers using YOLO
+            // Detect answers and student ID in parallel. Both services receive their own stream.
             using var yoloStream = new MemoryStream(imageBytes);
-            var yoloResult = await _yoloService.DetectAnswersAsync(yoloStream);
+            using var studentIdStream = new MemoryStream(imageBytes);
+
+            var yoloTask = _yoloService.DetectAnswersAsync(yoloStream);
+            var studentIdTask = _ocrService.ExtractNumberFromImageAsync(studentIdStream, fileName);
+
+            await Task.WhenAll(yoloTask, studentIdTask);
+
+            var yoloResult = await yoloTask;
 
             if (!yoloResult.Success)
             {
@@ -59,10 +66,8 @@ public class GradingService : IGradingService
                 };
             }
 
-            // Extract student ID using OCR
-            using var ocrStream = new MemoryStream(imageBytes);
-            var ocrResult = await _ocrService.ExtractNumberFromImageAsync(ocrStream, fileName);
-            var studentId = ocrResult.Success ? ocrResult.ExtractedNumber : null;
+            var studentIdResult = await studentIdTask;
+            var studentId = studentIdResult.Success ? studentIdResult.ExtractedNumber : null;
 
             // Compare answers
             var gradingResult = CompareAnswers(

@@ -41,8 +41,9 @@ public class DebugController : ControllerBase
     }
 
     /// <summary>
-    /// Step 2: Call only .NET OCR to extract student number
+    /// Step 2: Call only the injected student ID model to extract student number
     /// </summary>
+    [HttpPost("student-id-extract")]
     [HttpPost("ocr-extract")]
     [Consumes("multipart/form-data")]
     public async Task<ActionResult<OcrResult>> OcrExtract(IFormFile file)
@@ -108,7 +109,7 @@ public class DebugController : ControllerBase
     }
 
     /// <summary>
-    /// Full pipeline: YOLO + OCR + Compare in one call, with individual results
+    /// Full pipeline: YOLO + student ID model + Compare in one call, with individual results
     /// </summary>
     [HttpPost("full-pipeline")]
     [Consumes("multipart/form-data")]
@@ -124,20 +125,21 @@ public class DebugController : ControllerBase
         await file.CopyToAsync(memoryStream);
         var imageBytes = memoryStream.ToArray();
 
-        // Step 1: YOLO Detection
-        _logger.LogInformation("Step 1: Calling YOLO API...");
         using var yoloStream = new MemoryStream(imageBytes);
-        result.YoloResponse = await _yoloService.DetectAnswersAsync(yoloStream);
-        _logger.LogInformation("YOLO returned {Count} answers", result.YoloResponse.Answers.Count);
-
-        // Step 2: OCR
-        _logger.LogInformation("Step 2: Calling OCR...");
         using var ocrStream = new MemoryStream(imageBytes);
-        result.OcrResponse = await _ocrService.ExtractNumberFromImageAsync(ocrStream, file.FileName);
-        _logger.LogInformation("OCR returned: {Number}", result.OcrResponse.ExtractedNumber);
 
-        // Step 3: Comparison
-        _logger.LogInformation("Step 3: Comparing answers...");
+        _logger.LogInformation("Calling YOLO API and student ID model in parallel...");
+        var yoloTask = _yoloService.DetectAnswersAsync(yoloStream);
+        var studentIdTask = _ocrService.ExtractNumberFromImageAsync(ocrStream, file.FileName);
+
+        await Task.WhenAll(yoloTask, studentIdTask);
+
+        result.YoloResponse = await yoloTask;
+        result.OcrResponse = await studentIdTask;
+        _logger.LogInformation("YOLO returned {Count} answers", result.YoloResponse.Answers.Count);
+        _logger.LogInformation("Student ID model returned: {Number}", result.OcrResponse.ExtractedNumber);
+
+        _logger.LogInformation("Comparing answers...");
         var answerKey = answerKeyId != null
             ? _answerKeyService.GetAnswerKey(answerKeyId)
             : _answerKeyService.GetCurrentAnswerKey();

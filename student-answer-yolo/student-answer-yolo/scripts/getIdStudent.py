@@ -314,20 +314,15 @@ def _classify_digits(model, mask, boxes):
     """Classify each digit and return (id_string, avg_confidence)."""
     if not boxes:
         return "", 0.0
-    
-    detected_id = ""
-    confidences = []
-    
-    for box in boxes:
-        digit_28 = _crop_to_mnist(mask, box)
-        net_input = digit_28.reshape(1, 28, 28, 1).astype("float32") / 255.0
-        prediction = model.predict(net_input, verbose=0)
-        digit = int(np.argmax(prediction))
-        conf = float(np.max(prediction))
-        detected_id += str(digit)
-        confidences.append(conf)
-    
-    avg_conf = np.mean(confidences) if confidences else 0.0
+
+    batch = np.stack([_crop_to_mnist(mask, box) for box in boxes], axis=0)
+    net_input = batch.reshape(len(boxes), 28, 28, 1).astype("float32") / 255.0
+    predictions = model.predict(net_input, verbose=0)
+    digits = np.argmax(predictions, axis=1)
+    confidences = np.max(predictions, axis=1)
+
+    detected_id = "".join(str(int(digit)) for digit in digits)
+    avg_conf = float(np.mean(confidences)) if len(confidences) else 0.0
     return detected_id, avg_conf
 
 
