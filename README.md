@@ -28,6 +28,7 @@
 - [Motivation](#motivation-of-the-project)
 - [Phase 1](#phase-1) — dataset, pipeline, evaluation concept
 - [Phase 2](#phase-2) — architecture, exam grading app, YOLO training & integration
+- [Phase 3](#phase-3) - retrained 5-digit code detection, faster processing, CSV priority lists
 - [Training process (YOLO)](#training-process-yolo) — labeling, metrics, OCR workflow
 - [Future improvements](#future-improvements)
 - [Conclusion](#conclusion)
@@ -85,7 +86,7 @@ The project is organized into three main phases:
 
 - **Phase 1 – Current System Implementation**
 - **Phase 2 – YOLO Model Training and Improvement**
-- **Phase 3 – Improvement in model (Future Improvements)**
+- **Phase 3 - Retraining, Processing Optimization, and CSV Priority Allocation**
   
 ---
 
@@ -1089,6 +1090,112 @@ The successful implementation of this phase lays the foundation for:
 - Fully automated exam grading  
 - Real-time processing capabilities  
 - Scalable deployment in educational environments  
+
+---
+
+# Phase 3
+
+Phase 3 focuses on improving the final system performance after the initial YOLO implementation and integration were completed. In this phase, the main goal was to make the identification process faster, more reliable, and more useful for the admission workflow after exam evaluation.
+
+The work in this phase includes:
+
+- Retraining the YOLO model for improved **5-digit student code detection**
+- Using **LabelImg** for annotation and dataset preparation
+- Reducing test processing time through a more efficient detection workflow
+- Implementing CSV-based priority lists for student direction allocation
+- Separating students by minority and non-minority groups for each study direction
+
+---
+
+## Retraining the 5-Digit Code Detection Model
+
+During the previous phase, the system was able to detect and process exam sheets using YOLO. However, the detection of the student's **5-digit identification code** required further optimization because this code is one of the most important parts of the automated evaluation process.
+
+For this reason, the code detection component was retrained with a more focused dataset and improved annotations. The retraining process was designed to help the model detect the 5-digit code area more accurately and reduce unnecessary processing around parts of the test that are not relevant for student identification.
+
+This improvement is important because the 5-digit code connects the scanned exam paper with the correct student record. If the code is detected faster and more accurately, the entire grading and result generation process becomes more reliable.
+
+---
+
+## LabelImg Annotation Tool
+
+For the retraining process, **LabelImg** was used as the main annotation tool.
+
+LabelImg is a graphical image annotation tool that allows users to manually draw bounding boxes around objects in images and assign class labels to them. It is commonly used in object detection projects because it can export annotations in the **YOLO format**, which is directly compatible with YOLO training pipelines.
+
+In this project, LabelImg was used to label the regions related to the **5-digit student code**. This made it possible to create a more accurate training dataset for the model and helped YOLO learn the exact position and structure of the code field on the exam sheet.
+
+LabelImg was useful for YOLO because:
+
+- It supports bounding box annotation
+- It exports labels in YOLO-compatible format
+- It helps maintain consistent class labeling
+- It allows manual verification of each annotated image
+- It improves dataset quality before retraining
+
+By using LabelImg, the retrained model received cleaner and more focused annotations, which directly contributed to better detection performance.
+
+---
+
+## Processing Time Improvement
+
+Before the retraining and optimization in Phase 3, the processing time for a test was approximately **1 minute and 13 seconds**.
+
+After improving the retraining workflow and focusing the model more efficiently on the required detection area, the processing time was reduced to approximately **17 seconds** per test.
+
+This improvement was achieved because the retrained model became more efficient at detecting the relevant code area and required less unnecessary processing. As a result, the system can evaluate test images faster while still maintaining reliable detection accuracy.
+
+The reduction from **1 minute and 13 seconds** to **17 seconds** is significant for real-world usage, especially when the system needs to process a large number of entrance exam sheets.
+
+---
+
+## CSV Priority List Implementation
+
+In addition to model improvement, Phase 3 also includes the implementation of a **CSV file-based priority system** for student direction allocation.
+
+Each student may have a list of preferred study directions. If a student cannot be accepted into the first selected direction, the system checks the next available options based on the student's priority list. This allows the allocation process to be more organized and closer to the real admission process.
+
+The CSV file contains information such as:
+
+- Student identification code
+- Student priority list
+- Preferred study directions
+- Available alternatives if the first direction is not possible
+- Allocation status based on available places
+
+The system uses the CSV file to determine which direction a student should be assigned to, while also considering the number of available places in each direction.
+
+---
+
+## Allocation Based on Available Places
+
+The allocation logic takes into account that each study direction has a limited number of available places. Some of these places may also be reserved for minority groups, depending on the admission rules.
+
+For this reason, the system separates the allocation process into:
+
+- Minority group places
+- Non-minority group places
+
+This means that the student is not only evaluated based on score and preferences, but also according to the available capacity for the relevant group.
+
+If the student cannot be placed in the first preferred direction, the system continues checking the next options from the CSV priority list until an available direction is found.
+
+---
+
+## CSV Output per Study Direction
+
+For each study direction, the system generates or displays CSV-based results that separate students into the correct admission groups.
+
+The output for every direction includes:
+
+- Students allocated through the minority group quota
+- Students allocated through the non-minority group quota
+- Students who could not be assigned to that direction
+- Alternative options based on the student's priority list
+
+This CSV structure makes the result easier to review, filter, and validate. It also helps the admission process remain transparent because each student allocation can be traced back to the student's score, priority list, available places, and group category.
+
+Through this implementation, Phase 3 extends the project from exam detection and grading into a more complete admission support system.
 
 ---
 
