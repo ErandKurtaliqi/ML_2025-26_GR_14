@@ -1215,7 +1215,7 @@ Such systems can significantly improve the **efficiency, reliability, and scalab
 
 ### Professors
 
-Prof. Dr. Lele Ahmeti  
+Prof. Dr. Lele Ahmedi  
 Prof. Asst. Dr. Mërgim H. Hoti  
 
 ### Students
